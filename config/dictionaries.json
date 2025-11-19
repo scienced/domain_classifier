@@ -1,0 +1,67 @@
+{
+  "bodywear_terms": {
+    "en": [
+      "lingerie", "underwear", "bra", "bras", "briefs", "panties", "intimates",
+      "sleepwear", "nightwear", "pajamas", "pyjamas", "shapewear", "hosiery",
+      "swimwear", "swim", "bikini", "loungewear", "bodywear", "innerwear",
+      "undies", "knickers", "boxers", "trunks", "thong", "boyshorts"
+    ],
+    "nl": [
+      "lingerie", "ondergoed", "onderkleding", "bh", "beha", "slip", "slips",
+      "nachtmode", "nachtkleding", "badmode", "zwemkleding", "bikini",
+      "shapewear", "onderjurk", "boxershorts", "boxer", "string", "hipster",
+      "sokken", "kousen", "badpak", "pyjama"
+    ],
+    "de": [
+      "unterwäsche", "dessous", "lingerie", "bh", "büstenhalter", "slip",
+      "slips", "unterhose", "nachtwäsche", "bademode", "schwimmkleidung",
+      "shapewear", "formwäsche", "boxershorts", "string", "tanga"
+    ],
+    "fr": [
+      "lingerie", "sous-vêtements", "soutien-gorge", "culotte", "slip",
+      "maillot de bain", "maillots", "nuit", "pyjama", "shapewear",
+      "boxer", "string", "tanga", "shorty"
+    ],
+    "es": [
+      "lencería", "ropa interior", "sujetador", "sostén", "braga",
+      "calzoncillo", "bañador", "traje de baño", "pijama", "ropa de dormir",
+      "shapewear", "boxer", "tanga", "bikini"
+    ],
+    "it": [
+      "intimo", "biancheria", "lingerie", "reggiseno", "mutandine",
+      "slip", "costume da bagno", "costumi", "pigiama", "notte",
+      "shapewear", "boxer", "tanga", "perizoma"
+    ]
+  },
+  "generalist_penalty_terms": {
+    "en": [
+      "denim", "jeans", "outerwear", "coats", "jackets", "shoes", "footwear",
+      "sneakers", "boots", "kids", "children", "baby", "home", "decor",
+      "furniture", "accessories", "bags", "jewelry", "beauty", "makeup"
+    ],
+    "nl": [
+      "denim", "jeans", "jassen", "schoenen", "sneakers", "laarzen",
+      "kinderen", "baby", "huis", "wonen", "accessoires", "tassen", "sieraden"
+    ],
+    "de": [
+      "denim", "jeans", "oberbekleidung", "mäntel", "jacken", "schuhe",
+      "sneaker", "stiefel", "kinder", "baby", "haus", "wohnen", "accessoires",
+      "taschen", "schmuck"
+    ],
+    "fr": [
+      "denim", "jeans", "manteaux", "vestes", "chaussures", "baskets",
+      "bottes", "enfants", "bébé", "maison", "décoration", "accessoires",
+      "sacs", "bijoux"
+    ],
+    "es": [
+      "denim", "vaqueros", "abrigos", "chaquetas", "zapatos", "zapatillas",
+      "botas", "niños", "bebé", "hogar", "decoración", "accesorios",
+      "bolsos", "joyería"
+    ],
+    "it": [
+      "denim", "jeans", "cappotti", "giacche", "scarpe", "sneakers",
+      "stivali", "bambini", "neonati", "casa", "arredamento", "accessori",
+      "borse", "gioielli"
+    ]
+  }
+}

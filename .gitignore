@@ -1,0 +1,33 @@
+# Environment variables (contains API keys)
+.env
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# macOS
+.DS_Store
+
+# Artifacts
+artifacts/
+
+# Test outputs
+output/test_*
+output/step*
+output/production_*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak

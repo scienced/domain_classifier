@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m pip install:*)",
+      "Bash(python3 -m playwright:*)",
+      "Bash(timeout 180 python3:*)",
+      "Bash(python3:*)",
+      "Bash(timeout 60 python3:*)",
+      "Bash(cat:*)",
+      "WebFetch(domain:www.firecrawl.dev)",
+      "WebFetch(domain:jina.ai)",
+      "WebSearch",
+      "Bash(curl:*)",
+      "Bash(git init:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

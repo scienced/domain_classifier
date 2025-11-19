@@ -1,0 +1,74 @@
+# Worker Configuration
+workers: 1  # Sequential processing for reliability
+max_retries: 1
+
+# Crawler Settings
+crawler:
+  timeout_ms: 15000  # Increased for slow sites
+  wait_after_load_ms: 3000  # Wait for delayed modals and animations
+  screenshot: true
+  save_html: true
+  user_agents:
+    - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+# Popup Handling
+popup_handling:
+  max_dismissal_attempts: 3
+  obstruction_threshold_pct: 25  # Percent of viewport covered
+  wait_between_attempts_ms: 500
+
+# Scoring Configuration
+scoring:
+  # Stage A: Text-only
+  stage_a_weights:
+    nav_text: 0.6
+    hero_text: 0.25
+    cta_text: 0.15
+
+  # Stage B: Vision integration (triggered if text score in uncertainty range)
+  # More aggressive - use Vision for validation on borderline cases
+  # Lowered from 0.30 to 0.15 to catch cases like calvinklein.com
+  stage_b_trigger_range: [0.15, 0.80]
+  stage_b_weights:
+    text: 0.5
+    vision: 0.5
+
+  # Final classification thresholds
+  thresholds:
+    pure_bodywear: 0.70          # >= 0.70 = Pure Bodywear
+    bodywear_leaning: 0.35       # 0.35-0.70 = Bodywear Leaning (lowered from 0.40)
+    generalist: 0.25             # < 0.25 = Generalist
+
+  # Generalist penalty weight (reduced from 0.3 to fix bjornborg.com issue)
+  generalist_penalty_weight: 0.15
+
+# Vision API Configuration
+vision:
+  enabled: true
+  images_per_domain: 4
+  image_types: ["hero", "product_tiles"]
+  model: "gpt-4o-mini"  # Cost-effective vision model
+  max_image_dimension: 512  # Resize to save API costs
+
+# Output Configuration
+output:
+  csv_columns:
+    - domain
+    - label
+    - confidence
+    - text_score
+    - vision_score
+    - reasons
+    - image_count
+    - error
+    - started_at
+    - finished_at
+  flush_every_n: 1  # Flush after each write for crash safety
+
+# Artifacts
+artifacts:
+  save_screenshots: true
+  save_html: false  # Set to true for debugging
+  base_dir: "artifacts"

@@ -1,0 +1,399 @@
+domain,label,confidence,brand_name_primary,brand_names_all,country_primary,countries_all,sources,classification_reasons,text_score,vision_score,stage_used
+maria-dee-shop.de,Bodywear Leaning,0.6904545454545454,MARIA DEE SHOP,MARIA DEE SHOP,Germany,Germany,HS segment,"bodywear:shapewear,bikini,bh,dessous;generalist:accessoires;vision_screenshot:0.65",0.730909090909091,0.65,http+vision
+shopiuritamennoia.com,Bodywear Leaning,0.6777777777777778,IU RITA MENNOIA,IU RITA MENNOIA,Italy,Italy,Salon,"bodywear:bikini,costumi;generalist:home;vision_screenshot:0.85",0.5055555555555555,0.85,http+vision
+maisonflora.fr,Bodywear Leaning,0.6777777777777778,MAISON FLORA,MAISON FLORA,France,France,HS fairs,bodywear:lingerie;generalist:maison;vision_screenshot:0.85,0.5055555555555555,0.85,http+vision
+kunert.de,Bodywear Leaning,0.675,KUNERT,KUNERT,Germany,Germany,FU,vision_screenshot:0.75;text_extraction_failed,0.0,0.75,playwright
+viadigioia.nl,Bodywear Leaning,0.675,Via di Gioia,Via di Gioia,Netherlands,Netherlands,FU,bodywear:swimwear;vision_screenshot:0.85,0.5,0.85,http+vision
+wolford.com,Bodywear Leaning,0.675,Wolford,Wolford|Wolford AG,Austria,Austria,Dealfront|FU|HS segment|e-com retailers,vision_screenshot:0.75;text_extraction_failed,0.0,0.75,playwright
+clara-intimo.it,Bodywear Leaning,0.675,CLARA,CLARA,Italy,Italy,Salon,bodywear:intimo;vision_screenshot:0.85,0.5,0.85,http+vision
+loheshop.com,Bodywear Leaning,0.675,LOHE,LOHE,Spain,Spain,Salon,"bodywear:pyjamas,swimwear;generalist:children,accessories;vision_screenshot:0.65",0.7000000000000001,0.65,http+vision
+gedes.be,Bodywear Leaning,0.675,Gedes BV,GEDES B.V.|Gedes BV,Belgium,Belgium,Body Fashion Trade Fair|HS segment,vision_screenshot:0.75;text_extraction_failed,0.0,0.75,playwright
+onthatass.com,Bodywear Leaning,0.675,ON THAT ASS,ON THAT ASS,Netherlands,Netherlands,HS segment,vision_screenshot:0.75;text_extraction_failed,0.0,0.75,playwright
+obsessive.com.pl,Bodywear Leaning,0.6666666666666666,Obsessive,Obsessive,Poland,Poland,e-com retailers,bodywear:panties,0.6666666666666666,,http
+seanay.fr,Bodywear Leaning,0.6583333333333333,SEANAY,SEANAY,France,France,Salon,bodywear:swimwear;vision_screenshot:0.65,0.6666666666666666,0.65,http+vision
+trofe.se,Bodywear Leaning,0.6583333333333333,Trofé,Trofé,Sweden,Sweden,e-com retailers,"bodywear:pyjamas,loungewear;vision_screenshot:0.65",0.6666666666666666,0.65,http+vision
+ennamoda.com,Bodywear Leaning,0.6578947368421053,ENNA MODA,ENNA MODA,United Kingdom,United Kingdom,HS fairs,"bodywear:bras,pyjamas,loungewear;generalist:home;vision_screenshot:0.55",0.7657894736842106,0.55,http+vision
+maiyo.co.uk,Bodywear Leaning,0.6454545454545455,Maiyo,Maiyo,United Kingdom,United Kingdom,FU,"bodywear:swimwear,bikini;generalist:accessories;vision_screenshot:0.65",0.6409090909090909,0.65,http+vision
+v2dlingerie.com,Bodywear Leaning,0.645,V2d Lingerie,V2d Lingerie,France,France,Dealfront,bodywear:lingerie;generalist:home;vision_screenshot:0.85,0.44,0.85,http+vision
+schiesser.com,Bodywear Leaning,0.6444444444444444,Schiesser,Schiesser|Schiesser AG,Germany,Germany,Dealfront|FU|e-com retailers,"bodywear:underwear,bra,bras,panties,sleepwear;generalist:outerwear,jackets,children;vision_screenshot:0.60",0.6888888888888889,0.6,http+vision
+icone-lingerie.com,Bodywear Leaning,0.6369047619047619,ICONE,ICONE|Icone Lingerie,France,France,HS fairs|Salon,"bodywear:lingerie,tanga;generalist:accessoires;vision_screenshot:0.65",0.6238095238095238,0.65,http+vision
+gdfsyehui.com,Bodywear Leaning,0.63,"YEHUI LINGERIE ACCESSORIES CO, LTD","YEHUI LINGERIE ACCESSORIES CO, LTD",,,HS fairs,vision_screenshot:0.70;text_extraction_failed,0.0,0.7,playwright
+alvana.fr,Bodywear Leaning,0.6291666666666667,ALVANA SWIMWEAR,ALVANA SWIMWEAR,France,France,HS fairs,"bodywear:swimwear,culotte,maillot de bain,maillots;generalist:bijoux",0.6291666666666667,,http
+khioneswimwear.com,Bodywear Leaning,0.625,KHIÓNÊ,KHIÓNÊ,France,France,Salon,bodywear:maillots;vision_screenshot:0.75,0.5,0.75,http+vision
+moi-et-marie.com,Bodywear Leaning,0.625,Moi et Marie,Moi et Marie,Belgium,Belgium,Body Fashion Trade Fair,bodywear:ondergoed;vision_screenshot:0.75,0.5,0.75,http+vision
+hosierycenter.nl,Bodywear Leaning,0.625,Hosiery Center B.V.,Hosiery Center B.V.,Netherlands,Netherlands,HS segment,bodywear:bodywear;vision_screenshot:0.75,0.5,0.75,http+vision
+sistersrepublic.com,Bodywear Leaning,0.6138888888888889,Sistersrepublic,Sistersrepublic,France,France,HS segment,"bodywear:culotte,maillots;generalist:accessoires,maison;vision_screenshot:0.85",0.3777777777777777,0.85,http+vision
+aliceetmaman.be,Bodywear Leaning,0.61,Alice et Maman,Alice et Maman,Belgium,Belgium,HS fairs|HS segment,bodywear:nightwear;generalist:home;vision_screenshot:0.65,0.57,0.65,http+vision
+muchachomalo.com,Bodywear Leaning,0.6038461538461539,Muchachomalo,Muchachomalo,Netherlands,Netherlands,FU|HS segment,"bodywear:briefs,trunks,ondergoed,boxershorts,sokken;generalist:accessoires;vision_screenshot:0.55",0.6576923076923077,0.55,http+vision
+nue-studio.com,Bodywear Leaning,0.6025,Nué,Nué,Ukraine,Ukraine,FU,"bodywear:lingerie,swimwear;generalist:jackets,accessories;vision_screenshot:0.65",0.5549999999999999,0.65,http+vision
+myjama.de,Bodywear Leaning,0.6025,MYJAMA,MYJAMA,Germany,Germany,Supreme Body & Beach,"bodywear:loungewear,pyjama;generalist:kinder;vision_screenshot:0.65",0.5549999999999999,0.65,http+vision
+damella.se,Bodywear Leaning,0.6,Damella of Sweden,Damella|Damella of Sweden,Sweden,Sweden,HS segment|e-com retailers,bodywear:bikini;vision_screenshot:0.45,0.75,0.45,http+vision
+lascana.de,Bodywear Leaning,0.5991935483870967,Lascana,LASCANA|LASCANA OTTO GMBH & CO. KG|Lascana|WERNER STECK,Germany,Germany,HS fairs|HS segment|Salon|Supreme Body & Beach,"bodywear:bh,slips,dessous,nachtwäsche;generalist:accessoires,mäntel,jacken;vision_screenshot:0.75",0.4483870967741935,0.75,http+vision
+wallien.com,Bodywear Leaning,0.5895833333333333,WALLIEN,WALLIEN,Netherlands,Netherlands,FU,"bodywear:swimwear,swim;generalist:accessories;vision_screenshot:0.55",0.6291666666666667,0.55,http+vision
+asceno.com,Bodywear Leaning,0.5850000000000001,ASCENO,ASCENO,United Kingdom,United Kingdom,FU,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+boobdesign.com,Bodywear Leaning,0.5850000000000001,Boob,Boob|Boob Design,Sweden,Sweden,FU|HS segment,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+mila-beach.com,Bodywear Leaning,0.5850000000000001,Mila beachwear,Mila beachwear,Netherlands,Netherlands,FU,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+marcmarcs.com,Bodywear Leaning,0.5850000000000001,marcmarcs,marcmarcs,Netherlands,Netherlands,FU,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+boglietti.it,Bodywear Leaning,0.5850000000000001,BOGLIETTI,BOGLIETTI,Italy,Italy,HS fairs|Salon,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+oscalito.it,Bodywear Leaning,0.5850000000000001,MAGLIFICIO PO SRL,MAGLIFICIO PO SRL|OSCALITO|OSCALITO 1936MAGLIFICIO PO SRL CON SOCIOUNICO,Italy,Italy,HS fairs|Salon|Supreme Body & Beach,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+scarlettgasque.com,Bodywear Leaning,0.5850000000000001,SCARLETT GASQUE United,SCARLETT GASQUE|SCARLETT GASQUE United,United Kingdom,United Kingdom,HS fairs|Salon,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+spanx.com,Bodywear Leaning,0.5850000000000001,Spanx,Spanx,United States,United States,e-com retailers,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+posielingerie.com,Bodywear Leaning,0.5850000000000001,POSIE,POSIE,United Kingdom,United Kingdom,HS fairs,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+dienlingerie.com,Bodywear Leaning,0.5850000000000001,DIEN,DIEN,,,HS fairs,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+sensis.com.pl,Bodywear Leaning,0.5850000000000001,SENSIS,SENSIS,Poland,Poland,HS fairs,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+ioralingerie.com,Bodywear Leaning,0.5850000000000001,IORA LINGERIE,IORA LINGERIE,Portugal,Portugal,HS fairs,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+pompea.com,Bodywear Leaning,0.5850000000000001,Pompea,Pompea,Italy,Italy,HS segment,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+mymarini.com,Bodywear Leaning,0.5850000000000001,Mymarini,Mymarini,Germany,Germany,HS segment,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+jockey.com,Bodywear Leaning,0.5850000000000001,JOCKEY GmbH,JOCKEY GmbH,Germany,Germany,HS segment,vision_screenshot:0.65;text_extraction_failed,0.0,0.65,playwright
+bamboobasics.com,Bodywear Leaning,0.5793103448275863,Bamboo Basics,Bamboo Basics|HVEG Brands Group B.V.,Netherlands,Netherlands,Body Fashion Trade Fair|Dealfront|FU,"bodywear:boxers,trunks,ondergoed,bh,slips;generalist:baby;vision_screenshot:0.55",0.6086206896551724,0.55,http+vision
+moritz-hendel.de,Bodywear Leaning,0.5791666666666666,Moritz Hendel & Söhne GmbH,Moritz Hendel & Söhne GmbH,Germany,Germany,HS segment,bodywear:bh;generalist:accessoires;vision_screenshot:0.90,0.2583333333333333,0.9,http+vision
+bertilleisabeau.com,Bodywear Leaning,0.5777777777777777,BERTILLE ISABEAU,BERTILLE ISABEAU,France,France,HS fairs,bodywear:lingerie;generalist:maison;vision_screenshot:0.65,0.5055555555555555,0.65,http+vision
+admas.es,Bodywear Leaning,0.5625,ADMAS,ADMAS,Spain,Spain,HS fairs,"bodywear:pyjamas,pijama;generalist:jeans,home,accessories;vision_screenshot:0.55",0.575,0.55,http+vision
+fidalingerie.it,Bodywear Leaning,0.5596153846153846,FIDA LINGERIE,FIDA LINGERIE,Italy,Italy,Salon,bodywear:slip;generalist:home;vision_screenshot:0.55,0.5692307692307692,0.55,http+vision
+dalgaswim.com,Bodywear Leaning,0.55,Dalga,Dalga,Switzerland,Switzerland,HS segment,"bodywear:swim,bikini,trunks;generalist:accessories;vision_screenshot:0.55",0.5499999999999999,0.55,http+vision
+b-leaf.be,Bodywear Leaning,0.54,B-LEAF Fashion,B-LEAF Fashion|B-LEAF Fashion bv,Belgium,Belgium,Body Fashion Trade Fair|HS fairs,vision_screenshot:0.60;text_extraction_failed,0.0,0.6,playwright
+pastunette.com,Bodywear Leaning,0.5345833333333333,Zetex BV,Zetex BV,Netherlands,Netherlands,Body Fashion Trade Fair,"bodywear:bikini,nachtmode,badmode,pyjama;generalist:kids,accessoires;vision_screenshot:0.45",0.6191666666666666,0.45,http+vision
+onskinery.com,Bodywear Leaning,0.525,camano GmbH & Co. KG,camano GmbH & Co. KG,Germany,Germany,HS segment,"bodywear:unterwäsche;generalist:baby,schuhe;vision_screenshot:0.85",0.2,0.85,http+vision
+icebreaker.com,Bodywear Leaning,0.51875,Icebreaker,Icebreaker,France,France,FU,"bodywear:ondergoed,beha,sokken;generalist:jassen;vision_screenshot:0.45",0.5875,0.45,http+vision
+shortstories.de,Bodywear Leaning,0.5166666666666666,SHORT STORIES,SHORT STORIES,Germany,Germany,Salon,"bodywear:loungewear,slips,unterwäsche,nachtwäsche,bademode;generalist:home;vision_screenshot:0.30",0.7333333333333333,0.3,http+vision
+calamoon.com,Bodywear Leaning,0.5125,CALAMOON SWIMWEAR,CALAMOON SWIMWEAR,,,HS fairs,bodywear:swimwear;generalist:kids;vision_screenshot:0.85,0.175,0.85,http+vision
+femfour.com,Bodywear Leaning,0.5071428571428571,FEMFOUR,FEMFOUR,Italy,Italy,Salon,bodywear:bikini;generalist:home;vision_screenshot:0.65,0.3642857142857142,0.65,http+vision
+lascana.com,Bodywear Leaning,0.5025,Roya Lounge Junky BV,Roya Lounge Junky BV,Netherlands,Netherlands,Body Fashion Trade Fair,"bodywear:lingerie,swimwear;generalist:outerwear,coats,jackets;vision_screenshot:0.45",0.5549999999999999,0.45,http+vision
+cachecoeurlingerie.com,Bodywear Leaning,0.5,Cache Coeur,Cache Coeur,France,France,FU,"bodywear:lingerie,pyjamas,culotte,maillots;generalist:jeans,accessoires,manteaux;vision_screenshot:0.10",0.5070175438596491,0.1,http+vision
+crewclothing.co.uk,Bodywear Leaning,0.5,Crew Clothing Company,Crew Clothing Company,United Kingdom,United Kingdom,FU,"bodywear:nightwear,swimwear,loungewear;generalist:jeans,coats,jackets;vision_screenshot:0.10",0.4092592592592592,0.1,http+vision
+zizzi.dk,Bodywear Leaning,0.5,Devoted By Zizzi,Devoted By Zizzi,Denmark,Denmark,FU,"bodywear:shapewear;generalist:jeans,accessories;vision_screenshot:0.10",0.408,0.1,http+vision
+falke.com,Bodywear Leaning,0.5,FALKE KGaA,FALKE|FALKE KGaA|Falke,Germany,Germany,Dealfront|FU|HS segment|e-com retailers,"bodywear:underwear,bras,panties,hosiery,slips;generalist:jackets,accessories,sneaker;vision_screenshot:0.20",0.5515151515151515,0.2,http+vision
+kaikoaworld.com,Bodywear Leaning,0.5,KAI AND KOA,KAI AND KOA,Spain,Spain,FU,bodywear:swimwear;vision_screenshot:0.00,0.6666666666666666,0.0,http+vision
+lidea.de,Bodywear Leaning,0.5,LIDEA,LIDEA,Germany,Germany,FU,bodywear:swimwear;vision_screenshot:0.00,0.6666666666666666,0.0,http+vision
+lovebrand.com,Bodywear Leaning,0.5,LOVE BRAND & Co.,LOVE BRAND & Co.,United Kingdom,United Kingdom,FU,"bodywear:swimwear,swim,bikini;generalist:jackets,accessories,bags;vision_screenshot:0.10",0.6105263157894737,0.1,http+vision
+mouwlengte7.com,Bodywear Leaning,0.5,Liefling,Liefling,Netherlands,Netherlands,FU,"bodywear:ondergoed,boxershorts,sokken;generalist:accessoires,casa;vision_screenshot:0.10",0.4714285714285714,0.1,http+vision
+lovjoi.com,Bodywear Leaning,0.5,Lovjoi,Lovjoi,Germany,Germany,FU,"bodywear:lingerie,bras,intimates,nightwear,swimwear;generalist:jeans;vision_screenshot:0.10",0.6710526315789473,0.1,http+vision
+maryanmehlhorn.com,Bodywear Leaning,0.5,Maryan Mehlhorn,Maryan Beachwear Group GmbH|Maryan Mehlhorn,Germany,Germany,Dealfront|FU,bodywear:bikini;generalist:home;vision_screenshot:0.00,0.73125,0.0,http+vision
+monsieurtshirt.com,Bodywear Leaning,0.5,Monsieur TSHIRT,Monsieur TSHIRT,France,France,FU,bodywear:boxers;vision_screenshot:0.10,0.5,0.1,http+vision
+oneill.com,Bodywear Leaning,0.5,O'Neill,O'Neill,Netherlands,Netherlands,FU,"bodywear:swimwear,swim,bikini;generalist:jackets,footwear,accessories;vision_screenshot:0.10",0.5,0.1,http+vision
+pamelamann.co.uk,Bodywear Leaning,0.5,Pamela Mann Ltd,Pamela Mann Ltd,United Kingdom,United Kingdom,FU,"bodywear:underwear;generalist:home,accessories;vision_screenshot:0.45",0.175,0.45,http+vision
+royce-lingerie.co.uk,Bodywear Leaning,0.5,Royce Lingerie,Royce Lingerie,United Kingdom,United Kingdom,FU,bodywear:bras;generalist:home;vision_screenshot:0.00,0.6333333333333333,0.0,http+vision
+sockshouse.nl,Bodywear Leaning,0.5,Sockshouse,Sockshouse,Netherlands,Netherlands,FU,"bodywear:ondergoed,sokken,kousen;vision_screenshot:0.00",0.75,0.0,http+vision
+untouchedunderwear.com,Bodywear Leaning,0.5,Untouched Underwear,Untouched Underwear,Netherlands,Netherlands,FU,"bodywear:boxers,thong,boxershorts,boxer,hipster;generalist:home;vision_screenshot:0.00",0.7461538461538462,0.0,http+vision
+vivemaria.de,Bodywear Leaning,0.5,VIVE MARIA,VIVE MARIA,Germany,Germany,FU,"bodywear:panties,pyjamas,slips;generalist:home,mäntel,jacken;vision_screenshot:0.00",0.5236842105263159,0.0,http+vision
+zoeleggings.com,Bodywear Leaning,0.5,Zoe Leggings,Zoe Leggings,Croatia,Croatia,FU,"bodywear:underwear,bra,bras,swimwear;generalist:jackets,accessories,bags;vision_screenshot:0.15",0.44375,0.15,http+vision
+en.le-petit-trou.com,Bodywear Leaning,0.5,,,,,,"bodywear:lingerie,bra,bras,briefs;generalist:jackets,shoes,accessories;vision_screenshot:0.00",0.6266666666666666,0.0,http+vision
+lousylivin.com,Bodywear Leaning,0.5,lousy-livin-underwear,lousy-livin-underwear,Germany,Germany,FU,"bodywear:trunks,boxershorts;generalist:home;vision_screenshot:0.05",0.6705882352941177,0.05,http+vision
+moostwanted.com,Bodywear Leaning,0.5,moost-wanted,moost-wanted,Netherlands,Netherlands,FU,"bodywear:lingerie;generalist:jackets,accessories,bags;vision_screenshot:0.15",0.6266666666666666,0.15,http+vision
+sunspel.com,Bodywear Leaning,0.5,sunspel,Sunspel Limited|sunspel,United Kingdom,United Kingdom,Dealfront|FU,"bodywear:underwear,briefs,sleepwear,swimwear,loungewear;generalist:coats,jackets,shoes;vision_screenshot:0.10",0.5535714285714285,0.1,http+vision
+bojibojiboji.com,Bodywear Leaning,0.5,BOJI,BOJI,France,France,Salon,"bodywear:boxers,boxer,sous-vêtements,culotte;generalist:home;vision_screenshot:0.00",0.7666666666666666,0.0,http+vision
+coastalreef.fr,Bodywear Leaning,0.5,COASTAL REEF,COASTAL REEF,France,France,Salon,bodywear:maillots;vision_screenshot:0.10,0.6666666666666666,0.1,http+vision
+massana.es,Bodywear Leaning,0.5,MASSANA,MASSANA,Spain,Spain,Salon,"bodywear:underwear,boxers,slips;generalist:home,casa;vision_screenshot:0.30",0.44375,0.3,http+vision
+odetteancel.net,Bodywear Leaning,0.5,ODETTE ANCEL PARIS,ODETTE ANCEL PARIS,France,France,Salon,bodywear:bikini;generalist:home;vision_screenshot:0.00,0.6576923076923077,0.0,http+vision
+talc-paris.fr,Bodywear Leaning,0.5,TALC,TALC,France,France,Salon,bodywear:pyjamas;generalist:maison;vision_screenshot:0.00,0.5285714285714286,0.0,http+vision
+yellamaris.de,Bodywear Leaning,0.5,YELLAMARIS,YELLAMARIS|Yellamaris GmbH,Germany,Germany,HS fairs|Salon,bodywear:pyjama;generalist:home;vision_screenshot:0.00,0.5285714285714286,0.0,http+vision
+4threckless.com,Bodywear Leaning,0.5,4th Reckless,4th Reckless,United Kingdom,United Kingdom,e-com retailers,bodywear:bra;generalist:home;vision_screenshot:0.45,0.34,0.45,http+vision
+cuissoh.com,Bodywear Leaning,0.5,Cuissoh,Cuissoh,France,France,e-com retailers,bodywear:shorty;vision_screenshot:0.00,0.5,0.0,http+vision
+girlfriend.com,Bodywear Leaning,0.5,Girlfriend Collective,Girlfriend Collective,United States,United States,e-com retailers,"bodywear:bra,bras,intimates;generalist:jackets;vision_screenshot:0.00",0.7033333333333333,0.0,http+vision
+janira.com,Bodywear Leaning,0.5,Janira,Janira,Spain,Spain,e-com retailers,"bodywear:bra,boxers,slips,boxer,tanga;generalist:baby;vision_screenshot:0.00",0.7817307692307692,0.0,http+vision
+rosemunde.com,Bodywear Leaning,0.5,Rosemunde,Rosemunde,Denmark,Denmark,e-com retailers,"bodywear:underwear,nightwear,swimwear;generalist:coats,jackets,shoes;vision_screenshot:0.30",0.25,0.3,http+vision
+palomacasile.com,Bodywear Leaning,0.5,PALOMA CASILE,PALOMA CASILE,France,France,HS fairs,bodywear:lingerie;generalist:home;vision_screenshot:0.00,0.6928571428571428,0.0,http+vision
+willy-hermann.com,Bodywear Leaning,0.5,WILLY HERMMANN,WILLY HERMMANN,Austria,Austria,HS fairs,"bodywear:shapewear,swimwear;generalist:home,beauty;vision_screenshot:0.00",0.7074074074074074,0.0,http+vision
+penn-ts.com,Bodywear Leaning,0.5,PENN ITALIA SRL/PENN TEXTILE SOLUTIONS GMBH,PENN ITALIA SRL/PENN TEXTILE SOLUTIONS GMBH|Penn Textile Solutions GmbH,Germany,Germany,Dealfront|HS fairs,bodywear:lingerie;generalist:home;vision_screenshot:0.00,0.5875,0.0,http+vision
+moonandmellow.com,Bodywear Leaning,0.5,MOON AND MELLOW,MOON AND MELLOW,United Kingdom,United Kingdom,HS fairs,bodywear:sleepwear;generalist:home;vision_screenshot:0.00,0.5285714285714286,0.0,http+vision
+sophiehallette.com,Bodywear Leaning,0.5,SOPHIE HALLETTE,Dentelle Sophie Hallette|SOPHIE HALLETTE,France,France,Dealfront|HS fairs,bodywear:lingerie;generalist:accessories;vision_screenshot:0.00,0.6928571428571428,0.0,http+vision
+esqudo.co,Bodywear Leaning,0.5,ESQUDO,ESQUDO,,,HS fairs,"bodywear:swimwear,boxer;generalist:accessories;vision_screenshot:0.00",0.7657894736842106,0.0,http+vision
+saeta-paris.com,Bodywear Leaning,0.5,SAETA PARIS,SAETA PARIS,,,HS fairs,"bodywear:lingerie,bras,panties;generalist:accessories;vision_screenshot:0.00",0.6888888888888889,0.0,http+vision
+muehlmeier.eu,Bodywear Leaning,0.5,MUEHLMEIER Bodyshaping GmbH,MUEHLMEIER Bodyshaping GmbH,Germany,Germany,HS fairs|HS segment,"bodywear:bra,bras;generalist:home;vision_screenshot:0.00",0.7642857142857142,0.0,http+vision
+welovesocks.it,Bodywear Leaning,0.5,SANGIACOMO,SANGIACOMO,Italy,Italy,HS fairs,vision_screenshot:0.30;text_extraction_failed,0.0,0.3,playwright
+pinklabel.gr,Bodywear Leaning,0.5,COSTAMANOLO GP,COSTAMANOLO GP,Greece,Greece,HS fairs,"bodywear:underwear,pyjamas,swimwear,loungewear;generalist:home,sneaker;vision_screenshot:0.00",0.773,0.0,http+vision
+oceansapart.com,Bodywear Leaning,0.5,Rise Up Fashion GmbH,OCEANSAPART|Rise Up Fashion GmbH,Germany,Germany,Dealfront|HS segment,"bodywear:underwear,bras,panties;generalist:coats,jackets,accessories;vision_screenshot:0.00",0.5192307692307692,0.0,http+vision
+portokalada.fr,Bodywear Leaning,0.5,Portokalada,Portokalada,France,France,HS segment,"bodywear:tanga,culotte,maillot de bain,maillots;generalist:accessoires;vision_screenshot:0.00",0.5842105263157894,0.0,http+vision
+voyeurx.nl,Bodywear Leaning,0.5,Voyeur X,Voyeur X,Netherlands,Netherlands,HS segment,bodywear:lingerie;generalist:accessoires;vision_screenshot:0.00,0.6409090909090909,0.0,http+vision
+ilgabbianobeachwear.com,Bodywear Leaning,0.5,Il Gabbiano Beachwear,Il Gabbiano Beachwear,Italy,Italy,HS segment,"bodywear:bikini,slip;generalist:home;vision_screenshot:0.00",0.6699999999999999,0.0,http+vision
+impetus.pt,Bodywear Leaning,0.5,Impetus Group,Impetus Group,Portugal,Portugal,HS segment,"bodywear:underwear,nightwear;vision_screenshot:0.05",0.6666666666666666,0.05,http+vision
+lapartisienne.fr,Bodywear Leaning,0.5,La Partisienne,La Partisienne,France,France,HS segment,bodywear:lingerie;generalist:baby;vision_screenshot:0.00,0.6821428571428572,0.0,http+vision
+mydacapo.de,Bodywear Leaning,0.5,MORITZ HENDEL & SÖHNE,MORITZ HENDEL & SÖHNE,Germany,Germany,Supreme Body & Beach,"bodywear:bh,slips,dessous;generalist:accessoires;vision_screenshot:0.10",0.5549999999999999,0.1,http+vision
+evedess.com,Bodywear Leaning,0.5,EVE Dessous VertriebsgesmbH,EVE Dessous VertriebsgesmbH,Austria,Austria,Dealfront,"bodywear:dessous,bademode;generalist:home;vision_screenshot:0.00",0.7527777777777778,0.0,http+vision
+lidea.com,Bodywear Leaning,0.5,Maryan Beachwear Group GmbH,Maryan Beachwear Group GmbH,Germany,Germany,Dealfront,bodywear:swimwear;vision_screenshot:0.00,0.6666666666666666,0.0,http+vision
+zizzifashion.com,Bodywear Leaning,0.5,Zizzi ApS,Zizzi ApS,Denmark,Denmark,Dealfront,"bodywear:underwear,nightwear,shapewear,swimwear;generalist:jeans,jackets,shoes;vision_screenshot:0.10",0.5177777777777777,0.1,http+vision
+lindner-socks.com,Bodywear Leaning,0.5,Strumpfwerk Lindner GmbH,Strumpfwerk Lindner GmbH,Germany,Germany,Dealfront,vision_screenshot:0.30;text_extraction_failed,0.0,0.3,playwright
+meislahn.de,Bodywear Leaning,0.5,Ferdinand Meislahn GmbH & Co. KG,Ferdinand Meislahn GmbH & Co. KG,Germany,Germany,Dealfront,"bodywear:shapewear,loungewear,unterwäsche,nachtwäsche;generalist:kinder,wohnen;vision_screenshot:0.00",0.721875,0.0,http+vision
+wenaas.com,Bodywear Leaning,0.5,Wenaas Workwear AS,Wenaas Workwear AS,Norway,Norway,Dealfront,bodywear:onderkleding;vision_screenshot:0.00,0.6666666666666666,0.0,http+vision
+degriffstock.com,Bodywear Leaning,0.5,France Achat International,France Achat International,France,France,Dealfront,"bodywear:lingerie,sous-vêtements,maillot de bain,nuit;generalist:sneakers,boots,accessoires;vision_screenshot:0.10",0.4092592592592592,0.1,http+vision
+kolle.de,Bodywear Leaning,0.5,Kolle GmbH KG,Kolle GmbH KG,Germany,Germany,Dealfront,bodywear:bademode;vision_screenshot:0.10,0.5,0.1,http+vision
+adanola.com,Bodywear Leaning,0.5,Adanola Limited,Adanola Limited,United Kingdom,United Kingdom,Dealfront,"bodywear:bras,intimates,sleepwear,swimwear;generalist:outerwear,jackets,accessories;vision_screenshot:0.45",0.3175,0.45,http+vision
+dorcelstore.com,Bodywear Leaning,0.5,1979 Retail,1979 Retail,France,France,Dealfront,bodywear:string;vision_screenshot:0.00,0.75,0.0,http+vision
+stammel.de,Bodywear Leaning,0.5,B. Stammel GmbH & Co. KG,B. Stammel GmbH & Co. KG,Germany,Germany,Dealfront,"bodywear:lingerie;generalist:kids,home;vision_screenshot:0.10",0.5352941176470588,0.1,http+vision
+wibra.nl,Bodywear Leaning,0.5,Wibra Supermarkt B.V.,Wibra Supermarkt B.V.,Netherlands,Netherlands,Dealfront,bodywear:sokken;vision_screenshot:0.10,0.5,0.1,http+vision
+samunderwear.com,Bodywear Leaning,0.5,Sam,Sam,France,France,Dealfront,"bodywear:lingerie,shapewear,swimwear;generalist:home;vision_screenshot:0.00",0.78,0.0,http+vision
+terstal.nl,Bodywear Leaning,0.5,terStal,terStal,Netherlands,Netherlands,Dealfront,"bodywear:lingerie,ondergoed,beha,slips,nachtmode;generalist:jeans,jassen,accessoires;vision_screenshot:0.10",0.4982456140350877,0.1,http+vision
+oceanusswimwear.com,Bodywear Leaning,0.495,Oceanus,Oceanus,United Kingdom,United Kingdom,FU,vision_screenshot:0.55;text_extraction_failed,0.0,0.55,playwright
+copenhagencartel.com,Bodywear Leaning,0.495,Copenhagen Cartel,Copenhagen Cartel,Denmark,Denmark,e-com retailers,vision_screenshot:0.55;text_extraction_failed,0.0,0.55,playwright
+strongerlabel.com,Bodywear Leaning,0.495,Stronger AB,Stronger AB,Sweden,Sweden,Dealfront,vision_screenshot:0.55;text_extraction_failed,0.0,0.55,playwright
+deardenier.dk,Bodywear Leaning,0.475,DEAR DENIER,DEAR DENIER,Denmark,Denmark,HS segment,bodywear:slip;vision_screenshot:0.15,0.8,0.15,http+vision
+rodasoleil.shop,Bodywear Leaning,0.4666666666666667,RODASOLEIL,RODASOLEIL,,,HS fairs,bodywear:swimwear;generalist:accessories;vision_screenshot:0.65,0.2833333333333333,0.65,http+vision
+suami.eu,Bodywear Leaning,0.4659090909090909,SUAMI,SUAMI,Belgium,Belgium,Dealfront,"bodywear:swimwear;generalist:kids,home;vision_screenshot:0.65",0.2818181818181818,0.65,http+vision
+huberholding.com,Bodywear Leaning,0.4625,Huber Holding AG,Huber Holding AG,Germany,Germany,HS segment,bodywear:bodywear;generalist:home,0.4625,,firecrawl
+grupodocor.com,Bodywear Leaning,0.4609375,Grupo DOCOR,Grupo DOCOR,Spain,Spain,HS segment,"bodywear:swimwear,bikini,bañador;generalist:kids,accessories;vision_screenshot:0.20",0.721875,0.2,http+vision
+blancheporte.fr,Bodywear Leaning,0.4530172413793103,Blancheporte,Blancheporte,France,France,FU,"bodywear:lingerie,pyjama,sous-vêtements,soutien-gorge,culotte;generalist:accessoires,chaussures,maison;vision_screenshot:0.30",0.6060344827586207,0.3,http+vision
+aruelle.com,Bodywear Leaning,0.45,ARUELLE,ARUELLE,Lithuania,Lithuania,HS fairs,"bodywear:underwear,pajamas;generalist:home",0.45,,http
+dstm.co,Bodywear Leaning,0.4425,DSTM,DSTM,Germany,Germany,HS fairs,"bodywear:lingerie,swimwear,bodywear;generalist:accessories;vision_screenshot:0.10",0.785,0.1,http+vision
+damart.fr,Bodywear Leaning,0.4395833333333333,Damart,Damart,France,France,FU|HS segment,"bodywear:lingerie,sous-vêtements,maillots,nuit;generalist:manteaux,vestes,chaussures;vision_screenshot:0.25",0.6291666666666667,0.25,http+vision
+daxon.fr,Bodywear Leaning,0.4266304347826087,MOVITEX SHARING,MOVITEX SHARING,France,France,Dealfront,"bodywear:lingerie,slip,pyjama,sous-vêtements,soutien-gorge;generalist:accessoires,chaussures,baskets;vision_screenshot:0.10",0.7532608695652174,0.1,http+vision
+undress-code.com,Bodywear Leaning,0.4225806451612903,Undress Code,UNDRESS CODE|Undress Code,Poland,Poland,FU|HS fairs,"bodywear:lingerie,bras,panties,swim;generalist:jackets,accessories;vision_screenshot:0.10",0.7451612903225806,0.1,http+vision
+item-m6.com,Bodywear Leaning,0.4211538461538462,ITEM m6,ITEM m6|MEDI GMBH & CO. KG,Germany,Germany,FU|Supreme Body & Beach,"bodywear:shapewear;generalist:jeans,beauty;vision_screenshot:0.45",0.3923076923076923,0.45,http+vision
+indesmalla.com,Bodywear Leaning,0.4197674418604651,INDESMALLA SA,INDESMALLA SA,Spain,Spain,HS fairs,bodywear:lingerie;generalist:outerwear;vision_screenshot:0.05,0.7895348837209303,0.05,http+vision
+carlross.de,Bodywear Leaning,0.4166666666666667,CARL ROSS GMBH & CO. KG,CARL ROSS GMBH & CO. KG|Carl Ross Textil GmbH,Germany,Germany,HS fairs|Supreme Body & Beach,bodywear:nachtwäsche;generalist:home;vision_screenshot:0.55,0.2833333333333333,0.55,http+vision
+liebaert.com,Bodywear Leaning,0.413,MARCEL LIEBAERT NV,MARCEL LIEBAERT NV,Belgium,Belgium,HS fairs,bodywear:lingerie;generalist:home;vision_screenshot:0.05,0.776,0.05,http+vision
+trigema.de,Bodywear Leaning,0.408,TRIGEMA Inh. W. Grupp e.K.,TRIGEMA Inh. W. Grupp e.K.,Germany,Germany,Dealfront,"bodywear:underwear,nightwear,swimwear;generalist:jackets,accessoires",0.408,,http
+209mare.com,Bodywear Leaning,0.405,209 MARE,209 MARE,France,France,FU,vision_screenshot:0.45;text_extraction_failed,0.0,0.45,playwright
+missmary.se,Bodywear Leaning,0.405,Miss Mary of Sweden AB,Miss Mary of Sweden AB,Sweden,Sweden,Dealfront,vision_screenshot:0.45;text_extraction_failed,0.0,0.45,playwright
+girlsmusthave.com,Bodywear Leaning,0.4,GIRLS MUST HAVE,GIRLS MUST HAVE,,,HS fairs,bodywear:swim;vision_screenshot:0.00,0.8,0.0,http+vision
+simone-perele.fr,Bodywear Leaning,0.4,Simone Perele,Simone Perele,France,France,HS fairs|HS segment,"bodywear:lingerie,shapewear,loungewear,nuit;generalist:accessoires;vision_screenshot:0.00",0.8,0.0,http+vision
+wacoallingerie.com,Pure Bodywear,0.9950248756218906,WACOAL,WACOAL|Wacoal Europe LTD.,France,France|United Kingdom,Dealfront|Salon,"bodywear:lingerie,bras,briefs,nightwear,shapewear",0.9950248756218906,,http
+elomilingerie.com,Pure Bodywear,0.9948453608247424,Elomi,Elomi,United Kingdom,United Kingdom,e-com retailers,"bodywear:lingerie,bras,briefs,swimwear,swim",0.9948453608247424,,http
+beachnbeyond.com,Pure Bodywear,0.9942857142857144,BEACH & BEYOND SWIMWEAR,BEACH & BEYOND SWIMWEAR,,,HS fairs,bodywear:bikini,0.9942857142857144,,http
+wacoallingerie.fr,Pure Bodywear,0.9942196531791908,FREYA,FREYA,France,France,HS fairs,"bodywear:lingerie,shapewear,slips,nuit",0.9942196531791908,,http
+freyalingerie.com,Pure Bodywear,0.9935483870967742,Freya,FREYA|Freya,United Kingdom,France|United Kingdom,FU|Salon|e-com retailers,"bodywear:lingerie,bras,briefs,nightwear,swimwear",0.9935483870967742,,http
+doralarsen.com,Pure Bodywear,0.9932432432432432,Dora Larsen,Dora Larsen,United Kingdom,United Kingdom,FU|HS fairs,"bodywear:lingerie,bras,briefs,swim,bikini",0.9932432432432432,,http
+piege-lingerie.com,Pure Bodywear,0.98989898989899,PIEGE LINGERIE,PIEGE LINGERIE|S.D.L,France,France,Body Fashion Trade Fair|Salon,"bodywear:shapewear,slip,boxer,string,tanga",0.98989898989899,,http
+huit.com,Pure Bodywear,0.989010989010989,HUIT,HUIT,France,France,HS fairs,"bodywear:lingerie,underwear,bra,bras,nightwear",0.989010989010989,,http
+valnue.com,Pure Bodywear,0.9882352941176472,VALNUE LINGERIE,VALNUE LINGERIE,,,HS fairs,"bodywear:lingerie,bra,bras,sleepwear,swimwear",0.9882352941176472,,http
+triumph-jo.com,Pure Bodywear,0.9878048780487804,triaction,triaction,Germany,Germany,FU,"bodywear:bra,bras,briefs,shapewear,swimwear",0.9878048780487804,,http
+playfulpromises.com,Pure Bodywear,0.9868098159509202,playful-promises,PLAYFUL PROMISES|playful-promises,United Kingdom,United Kingdom,FU|HS fairs,"bodywear:lingerie,underwear,bra,bras,briefs;generalist:outerwear",0.9868098159509202,,http
+livera.nl,Pure Bodywear,0.9864864864864864,Livera,Livera,France,France,FU,"bodywear:lingerie,shapewear,loungewear,boxers,bh",0.9864864864864864,,http
+boeckmann-mode.de,Pure Bodywear,0.9859154929577464,Böckmann Modehaus GmbH,Böckmann Modehaus GmbH,Germany,Germany,Dealfront,bodywear:lingerie,0.9859154929577464,,http
+pourmoi.co.uk,Pure Bodywear,0.9857615894039736,pour-moi,Pour Moi|pour-moi,United Kingdom,United Kingdom,FU|e-com retailers,"bodywear:lingerie,bras,nightwear,shapewear,hosiery;generalist:outerwear",0.9857615894039736,,http
+olly-lingerie.com,Pure Bodywear,0.9830508474576272,Olly Lingerie,Olly Lingerie,France,France,FU,"bodywear:lingerie,maillots",0.9830508474576272,,http
+hom.com,Pure Bodywear,0.9803921568627452,SKINY BODYWEAR,HOM|HOM S.A.|SKINY BODYWEAR,France,France|Germany,HS segment|Supreme Body & Beach|e-com retailers,"bodywear:pyjamas,loungewear,boxers,slips,sous-vêtements",0.9803921568627452,,http
+fashionshopping.dk,Pure Bodywear,0.9803921568627452,FASHION SHOPPING ApS,FASHION SHOPPING ApS,Denmark,Denmark,Dealfront,bodywear:bh,0.9803921568627452,,http
+femilet.dk,Pure Bodywear,0.979591836734694,Femilet,Femilet,France,France,FU,bodywear:bh,0.979591836734694,,http
+bluelemon.ch,Pure Bodywear,0.979591836734694,BLUE LEMON AG,BLUE LEMON AG,Switzerland,Switzerland,HS segment,"bodywear:lingerie,underwear,swimwear,loungewear",0.979591836734694,,http
+hunkemoller.nl,Pure Bodywear,0.979591836734694,Hunkemöller International B.V.,Hunkemöller International B.V.,Netherlands,Netherlands,Dealfront,"bodywear:lingerie,bra,bodywear,bh,slips",0.979591836734694,,http
+calida.com,Pure Bodywear,0.9791666666666666,Calida AG,CALIDA|Calida|Calida AG|calida,Switzerland,Germany|Switzerland,Body Fashion Trade Fair|Dealfront|FU|HS fairs|HS segment|Salon|e-com retailers,"bodywear:underwear,bra,bras,briefs,nightwear",0.9791666666666666,,http
+kikidm.com,Pure Bodywear,0.9791666666666666,KIKI,KIKI,Germany,Germany,Salon,"bodywear:lingerie,bra,bras,panties,pajamas",0.9791666666666666,,http
+prettypolly.co.uk,Pure Bodywear,0.9787234042553192,pretty-polly,pretty-polly,United Kingdom,United Kingdom,FU,"bodywear:lingerie,shapewear,hosiery",0.9787234042553192,,http
+louisabracq.com,Pure Bodywear,0.9782608695652174,Louisa Bracq,LOUISA BRACQ|Louisa Bracq|Louise Bracq,France,France,Body Fashion Trade Fair|FU|HS fairs|Salon|e-com retailers,"bodywear:bra,bras,briefs,panties,boxer",0.9782608695652174,,http
+softrevolt.com,Pure Bodywear,0.9782608695652174,SOFT REVOLT,SOFT REVOLT,Netherlands,Netherlands,Salon,"bodywear:bh,slip,slips,string",0.9782608695652174,,http
+simoneperele.com,Pure Bodywear,0.9782608695652174,Simone Pérèle,Simone Pérèle,France,France,e-com retailers,"bodywear:lingerie,bras,briefs,panties,shapewear",0.9782608695652174,,http
+huber-bodywear.com,Pure Bodywear,0.9777777777777776,Huber Bodywear GmbH,Huber Bodywear GmbH,Austria,Austria,HS segment,"bodywear:shapewear,loungewear,slips,unterwäsche,nachtwäsche",0.9777777777777776,,http
+felina.com,Pure Bodywear,0.9772727272727272,Felina GmbH,Felina GmbH,Germany,Germany,Body Fashion Trade Fair,"bodywear:lingerie,bra,bras,panties,sleepwear",0.9772727272727272,,http
+cdlp.com,Pure Bodywear,0.9772727272727272,CDLP,CDLP,Sweden,Sweden,HS segment,"bodywear:underwear,bras,swimwear,swim,boxer",0.9772727272727272,,http
+rosmelingerie.com,Pure Bodywear,0.9761904761904762,Rosme Lingerie,Rosme Lingerie,Latvia,Latvia,HS segment,"bodywear:underwear,bras,briefs,nightwear,pajamas",0.9761904761904762,,http
+skiny.com,Pure Bodywear,0.975,Skiny,Skiny|Skiny Bodywear GmbH,Austria,Austria,FU|HS segment,"bodywear:loungewear,slips,pyjama,unterwäsche,nachtwäsche",0.975,,http
+speidel-lingerie.de,Pure Bodywear,0.975,Speidel GmbH,Speidel GmbH,Germany,Germany,HS segment,"bodywear:shapewear,bh,slip,slips,string",0.975,,http
+speidelshop.com,Pure Bodywear,0.975,SPEIDEL GMBH,SPEIDEL GMBH|Speidel GmbH,Germany,Germany,Dealfront|Supreme Body & Beach,"bodywear:shapewear,bh,slip,slips,string",0.975,,http
+marliesdekkers.com,Pure Bodywear,0.9736,Marlies Dekkers,Dare to Be B.V.|Marlies Dekkers,Netherlands,Netherlands,Body Fashion Trade Fair|FU|HS segment,"bodywear:lingerie,bras,briefs,bikini,tanga;generalist:accessories",0.9736,,http
+comfyballs.no,Pure Bodywear,0.972972972972973,Comfyballs.no,Comfyballs.no,Norway,Norway,HS segment,"bodywear:bh,string,hipster",0.972972972972973,,http
+fantasie.com,Pure Bodywear,0.9723602484472048,fantasie,Fantasie|fantasie,United Kingdom,United Kingdom,FU|e-com retailers,"bodywear:lingerie,underwear,bras,nightwear,swimwear;generalist:accessories",0.9723602484472048,,http
+abecita.se,Pure Bodywear,0.9714285714285714,Abecita,Abecita,Sweden,Sweden,e-com retailers,"bodywear:underwear,bra,bras,panties,swimwear",0.9714285714285714,,http
+cadolle.com,Pure Bodywear,0.9714285714285714,CADOLLE,CADOLLE,France,France,HS fairs,"bodywear:lingerie,bras,briefs,panties,pyjamas",0.9714285714285714,,http
+boutique-arthur.com,Pure Bodywear,0.9713333333333334,Arthur,Arthur,France,France,FU,"bodywear:pyjamas,boxers,slips,pyjama,sous-vêtements;generalist:maison",0.9713333333333334,,http
+arthur.fr,Pure Bodywear,0.9713333333333334,Arthur/2JDL,Arthur/2JDL,France,France,Body Fashion Trade Fair,"bodywear:pyjamas,boxers,slips,pyjama,sous-vêtements;generalist:maison",0.9713333333333334,,http
+moretta.biz,Pure Bodywear,0.9696969696969696,MORETTA,MORETTA,Italy,Italy,HS fairs|Salon,"bodywear:slip,boxer",0.9696969696969696,,http
+swegmark.se,Pure Bodywear,0.9696969696969696,Swegmark,Swegmark|Underwear of Sweden,Sweden,Sweden,HS segment|e-com retailers,bodywear:bh,0.9696969696969696,,http
+lingerieroomofficial.co.uk,Pure Bodywear,0.9696969696969696,LINGERIE ROOM,LINGERIE ROOM,United Kingdom,United Kingdom,HS fairs,"bodywear:lingerie,bras,briefs,nightwear,knickers",0.9696969696969696,,http
+agdastudios.com,Pure Bodywear,0.96875,AGDA STUDIOS,AGDA STUDIOS,,,HS fairs,"bodywear:swimwear,bikini",0.96875,,http
+us.chantelle.com,Pure Bodywear,0.967741935483871,,,,,,"bodywear:bra,bras,panties,bikini,thong",0.967741935483871,,http
+byrroselingerie.com,Pure Bodywear,0.967741935483871,ROSE,ROSE,Germany,Germany,Salon,bodywear:lingerie,0.967741935483871,,http
+ambassador1867.com,Pure Bodywear,0.967741935483871,AMBASSADOR1867,AMBASSADOR1867,Denmark,Denmark,HS fairs,"bodywear:pyjamas,boxershorts",0.967741935483871,,http
+marcandandre.com,Pure Bodywear,0.9666666666666668,MARC & ANDRE,MARC & ANDRE|Marc & André Deutschland GmbH,Germany,Germany,HS segment|Supreme Body & Beach,"bodywear:lingerie,loungewear",0.9666666666666668,,http
+bluebella.com,Pure Bodywear,0.9660305343511448,BlueBella,BlueBella|Bluebella,United Kingdom,United Kingdom,FU|HS segment,"bodywear:lingerie,bra,bras,nightwear,swimwear;generalist:accessories",0.9660305343511448,,http
+scandale.com,Pure Bodywear,0.9647540983606556,SCANDALE ECO LINGERIE,SCANDALE ECO LINGERIE,France,France,HS fairs,"bodywear:lingerie,string,tanga,soutien-gorge,culotte;generalist:maison",0.9647540983606556,,http
+eminence.fr,Pure Bodywear,0.9642857142857144,Eminence,Eminence|Eminence Benelux,France,Belgium|France,Body Fashion Trade Fair|Dealfront|e-com retailers,"bodywear:pyjamas,boxers,slips,sous-vêtements",0.9642857142857144,,http
+simone-perele.com,Pure Bodywear,0.9638211382113822,sa-simone-perele-sa,Simone Perele SA|sa-simone-perele-sa,France,France,Dealfront|FU,"bodywear:lingerie,bras,panties,nightwear,shapewear;generalist:accessories",0.9638211382113822,,http
+rougegorge.com,Pure Bodywear,0.9632231404958678,Rougegorge,Rougegorge|Rougegorge Lingerie,France,France,Dealfront|FU,"bodywear:lingerie,pyjamas,sous-vêtements,soutien-gorge,maillot de bain;generalist:vestes",0.9632231404958678,,http
+modibodi.co.uk,Pure Bodywear,0.9629629629629628,MODIBODI United,MODIBODI|MODIBODI United,United Kingdom,United Kingdom,HS fairs|Salon,"bodywear:lingerie,underwear,bras,briefs,sleepwear",0.9629629629629628,,http
+cybele-lingerie.de,Pure Bodywear,0.96,Cybèle,Cybèle|Südtrikot GmbH & Co. KG,Germany,Germany,FU|HS segment,bodywear:bras,0.96,,http
+naturana.com,Pure Bodywear,0.96,NATURANA,NATURANA|NATURANA DÖLKER GMBH & CO. KG|NATURANA Dölker GmbH & Co. KG,Germany,Germany,Dealfront|FU|Salon|Supreme Body & Beach,bodywear:bras,0.96,,http
+naturana.de,Pure Bodywear,0.96,JOOP!,JOOP!,Germany,Germany,HS fairs,bodywear:bras,0.96,,http
+lovane-lingerie.com,Pure Bodywear,0.96,LÖVANE,LÖVANE,France,France,HS fairs,"bodywear:lingerie,culotte,maillots,shorty",0.96,,http
+ulla.de,Pure Bodywear,0.96,VERTRIEBS GMBH,Ulla|VERTRIEBS GMBH,Germany,Germany,HS segment|Supreme Body & Beach,"bodywear:lingerie,bh,slips,dessous,bademode",0.96,,http
+annadiva.nl,Pure Bodywear,0.9585185185185184,annadiva,ANNADIVA|Dutch Bodyfashion B.V. / Annadiva|annadiva,Netherlands,Netherlands,FU|HS segment|Salon,"bodywear:lingerie,swim,bikini,ondergoed,bh;generalist:accessoires,sieraden",0.9585185185185184,,http
+goldenhourlingerie.com,Pure Bodywear,0.9583333333333334,GOLDEN HOUR LINGERIE,GOLDEN HOUR LINGERIE,France,France,Salon,"bodywear:lingerie,soutien-gorge,culotte",0.9583333333333334,,http
+ladymate.com,Pure Bodywear,0.9565789473684212,"Shantou Ladymate Apparel Co.,Ltd","Shantou Ladymate Apparel Co.,Ltd",United Kingdom,United Kingdom,Dealfront,"bodywear:lingerie,underwear,bra,bras,briefs;generalist:home",0.9565789473684212,,http
+carami.it,Pure Bodywear,0.9565217391304348,CARAMI,CARAMI,Italy,Italy,HS fairs,"bodywear:loungewear,slip,culotte,intimo,reggiseno",0.9565217391304348,,http
+fleurofengland.com,Pure Bodywear,0.9552,Fleur of England Ltd,FLEUR OF ENGLAND United|Fleur of England Ltd,United Kingdom,United Kingdom,HS fairs|HS segment|Salon,"bodywear:lingerie,bras,briefs,nightwear,hosiery;generalist:accessories",0.9552,,http
+jockey.de,Pure Bodywear,0.9523809523809524,jockey,jockey,Germany,Germany,FU,"bodywear:bras,briefs,boxers,trunks,boxer",0.9523809523809524,,http
+wolflingerie.com,Pure Bodywear,0.9523809523809524,wolflingerie,wolflingerie,France,France,FU,bodywear:lingerie,0.9523809523809524,,http
+dot76.it,Pure Bodywear,0.9523809523809524,DOT76,DOT 76|DOT76,Italy,Italy,HS fairs|Salon,bodywear:lingerie,0.9523809523809524,,http
+eu.hofsilk.com,Pure Bodywear,0.9523809523809524,HOUSE OF SILK,HOUSE OF SILK,,,HS fairs,"bodywear:lingerie,bras,panties,pyjamas,swimwear",0.9523809523809524,,http
+kalyora.com,Pure Bodywear,0.9523809523809524,Kaly Ora,Kaly Ora,Belgium,Belgium,HS fairs,bodywear:swimwear,0.9523809523809524,,http
+seafolly.com,Pure Bodywear,0.9511363636363636,JETS AUSTRALIA,JETS AUSTRALIA,Netherlands,Netherlands,Supreme Body & Beach,"bodywear:swimwear,swim,bikini,hipster;generalist:accessories",0.9511363636363636,,http
+beliza.fr,Pure Bodywear,0.95,Beliza,Beliza,France,France,FU,"bodywear:lingerie,swimwear,maillot de bain",0.95,,http
+dorina.com,Pure Bodywear,0.95,D O R I N A,D O R I N A|DORINA|Dorina,Germany,Germany|Hungary|Netherlands,FU|Salon|e-com retailers,"bodywear:lingerie,bras,briefs,sleepwear,loungewear",0.95,,http
+undiz.com,Pure Bodywear,0.95,Undiz,Undiz|undiz,France,France,Dealfront|FU|HS segment,"bodywear:lingerie,pyjamas;generalist:accessoires",0.95,,http
+roesch-fashion.com,Pure Bodywear,0.95,Rösch Fashion GmbH & Co. KG,Rösch Fashion GmbH & Co. KG,Germany,Germany,Dealfront|HS fairs|HS segment,"bodywear:pyjamas,loungewear,nachtwäsche,bademode",0.95,,http
+roesch-fashion.de,Pure Bodywear,0.95,RÖSCH FASHION GMBH & CO. KG,RÖSCH FASHION GMBH & CO. KG,Germany,Germany,Supreme Body & Beach,"bodywear:pyjamas,loungewear,nachtwäsche,bademode",0.95,,http
+lingeriebycoco.com,Pure Bodywear,0.947560975609756,COCO,COCO,Germany,Germany,Salon,"bodywear:lingerie,bra,panties,loungewear;generalist:accessories",0.947560975609756,,http
+lovable.it,Pure Bodywear,0.9473684210526316,Lovable,Lovable,Italy,Italy,FU,"bodywear:slip,boxer,intimo,reggiseno",0.9473684210526316,,http
+davidnieper.co.uk,Pure Bodywear,0.9473684210526316,David Nieper Limited,David Nieper Limited,United Kingdom,United Kingdom,Dealfront,"bodywear:lingerie,nightwear",0.9473684210526316,,http
+bellycloud.com,Pure Bodywear,0.9473684210526316,Lutz GmbH,Lutz GmbH,Germany,Germany,Dealfront,"bodywear:shapewear,slip,slips",0.9473684210526316,,http
+davidgandywellwear.com,Pure Bodywear,0.9444444444444444,David Gandy Wellwear,David Gandy Wellwear,United Kingdom,United Kingdom,FU,"bodywear:underwear,pyjamas,swim",0.9444444444444444,,http
+heist-studios.com,Pure Bodywear,0.9444444444444444,HEIST STUDIOS,HEIST STUDIOS,United Kingdom,United Kingdom,HS fairs,"bodywear:underwear,briefs,shapewear,slips",0.9444444444444444,,http
+esquisse-lingerie.com,Pure Bodywear,0.9444444444444444,ESQUISSE PARIS,ESQUISSE PARIS,France,France,HS fairs,"bodywear:lingerie,maillots",0.9444444444444444,,http
+byebra.com,Pure Bodywear,0.9443661971830986,Bye Bra BV,Bye Bra|Bye Bra B.V.|Bye Bra BV,Netherlands,Netherlands,Body Fashion Trade Fair|HS fairs|e-com retailers,"bodywear:underwear,bras,shapewear;generalist:accessories",0.9443661971830986,,http
+lingerielanouvelle.com,Pure Bodywear,0.9434210526315788,La Nouvelle,La Nouvelle,France,France,HS fairs,"bodywear:lingerie,sous-vêtements;generalist:kids",0.9434210526315788,,http
+pierrerobert.no,Pure Bodywear,0.9411764705882352,Pierre Robert,Pierre Robert,Norway,Norway,FU,bodywear:boxer,0.9411764705882352,,http
+bestform-lingerie.com,Pure Bodywear,0.9411764705882352,BESTFORM,BESTFORM,France,France,Salon,"bodywear:lingerie,soutien-gorge",0.9411764705882352,,http
+verdiani.it,Pure Bodywear,0.9411764705882352,VERDIANI,VERDIANI|VERDIANI - DILIAR SRL,Italy,Italy,HS fairs|Salon,"bodywear:nightwear,loungewear",0.9411764705882352,,http
+xintima.com,Pure Bodywear,0.9411764705882352,X INTIMA,X INTIMA,,,HS fairs,"bodywear:nightwear,pyjamas,pyjama",0.9411764705882352,,http
+coco-de-mer.com,Pure Bodywear,0.9411764705882352,Coco-De-Mer,Coco-De-Mer,United Kingdom,United Kingdom,HS fairs|HS segment,"bodywear:lingerie,bra,bras,nightwear,hosiery",0.9411764705882352,,http
+boxerman.de,Pure Bodywear,0.9411764705882352,Boxerman GmbH,Boxerman GmbH,Germany,Germany,HS segment,"bodywear:briefs,trunks,slips,boxershorts,boxer",0.9411764705882352,,http
+houseofdesire.com,Pure Bodywear,0.9402777777777778,HOUSE OF DESIRE,HOUSE OF DESIRE,,,HS fairs,"bodywear:lingerie,bra,panties;generalist:accessories",0.9402777777777778,,http
+bouxavenue.com,Pure Bodywear,0.9402654867256638,boux-avenue,boux-avenue,United Kingdom,United Kingdom,FU,"bodywear:lingerie,underwear,bra,bras,nightwear;generalist:kids,accessories",0.9402654867256638,,http
+eu.triumph.com,Pure Bodywear,0.9385714285714284,,,,,,"bodywear:lingerie,bh,slips;generalist:accessories",0.9385714285714284,,http
+triumph.com,Pure Bodywear,0.9385714285714284,Triumph,Triumph|Triumph & sloggi|Triumph International,France,France|Germany|Netherlands,Body Fashion Trade Fair|FU|HS segment|e-com retailers,"bodywear:lingerie,bh,slips;generalist:accessories",0.9385714285714284,,http
+jakosportkleding.nl,Pure Bodywear,0.9375,JAKO,JAKO,Netherlands,Netherlands,FU,"bodywear:underwear,sokken",0.9375,,http
+21mars.com,Pure Bodywear,0.9375,21 MARS,21 MARS,France,France,Salon,"bodywear:lingerie,sous-vêtements,soutien-gorge,culotte,shorty",0.9375,,http
+seliarichwood.com,Pure Bodywear,0.9375,SELIA RICHWOOD,SELIA RICHWOOD,Italy,Italy,HS fairs,"bodywear:lingerie,bras,panties,sleepwear,swimwear",0.9375,,http
+charlott.fr,Pure Bodywear,0.9375,Charlott',Charlott',France,France,Dealfront,bodywear:lingerie,0.9375,,http
+darjeeling.fr,Pure Bodywear,0.9333333333333332,Darjeeling,Darjeeling,France,France,FU,"bodywear:lingerie,pyjamas,soutien-gorge",0.9333333333333332,,http
+tuttirouge.com,Pure Bodywear,0.9333333333333332,Tutti Rouge,Tutti Rouge,United Kingdom,United Kingdom,FU,"bodywear:lingerie,bras,briefs",0.9333333333333332,,http
+oroblu.com,Pure Bodywear,0.9333333333333332,Oroblu,Oroblu,Italy,Italy,e-com retailers,"bodywear:slip,intimo,reggiseno",0.9333333333333332,,http
+lingadore.com,Pure Bodywear,0.9328125,Mendels Fashion Group - Linga Dore,LingaDore|Mendels Fashion Group|Mendels Fashion Group - Linga Dore,Netherlands,Netherlands,Body Fashion Trade Fair|HS fairs|HS segment|e-com retailers,"bodywear:bra,bras,briefs,swimwear,slips;generalist:accessories",0.9328125,,http
+happyshorts.com,Pure Bodywear,0.9285714285714286,HAPPY SHORTS,HAPPY SHORTS,Germany,Germany,FU,"bodywear:trunks,boxershorts,unterwäsche",0.9285714285714286,,http
+hunkemoller.dk,Pure Bodywear,0.9282608695652176,Hunkemöller International B.V.,Hunkemöller International B.V.,Netherlands,Netherlands,Dealfront,"bodywear:bodywear,bh;generalist:accessories",0.9282608695652176,,http
+lovestoriesintimates.com,Pure Bodywear,0.9266666666666666,Love Stories,GAB86|Love Stories,Netherlands,Belgium|Netherlands,Body Fashion Trade Fair|FU,"bodywear:lingerie,bras,briefs,pyjamas,loungewear;generalist:accessories",0.9266666666666666,,http
+lingadore.nl,Pure Bodywear,0.9258333333333334,LingaDore,LINGADORE|LingaDore,Netherlands,Netherlands,FU|Salon,"bodywear:bh,slips,badmode,hipster;generalist:accessoires",0.9258333333333334,,http
+underprotection.eu,Pure Bodywear,0.9243333333333332,Underprotection,Underprotection,Denmark,Denmark,FU,"bodywear:lingerie,bras,briefs,panties,pyjamas;generalist:accessories,bags",0.9243333333333332,,http
+magicbodyfashion.com,Pure Bodywear,0.9243243243243244,MAGIC BODYFASHION,MAGIC BODYFASHION|Magic Bodyfashion B.V.,Netherlands,Netherlands,Body Fashion Trade Fair|Salon|Supreme Body & Beach,"bodywear:bra,panties,shapewear;generalist:outerwear,beauty",0.9243243243243244,,http
+magicbodyfashion.fr,Pure Bodywear,0.9243243243243244,MAGIC BODYFASHION,MAGIC BODYFASHION,,,HS fairs,"bodywear:bra,panties,shapewear;generalist:outerwear,beauty",0.9243243243243244,,http
+magicbodyfashion.net,Pure Bodywear,0.9243243243243244,MAGIC Bodyfashion,MAGIC Bodyfashion,Netherlands,Netherlands,HS segment,"bodywear:bra,panties,shapewear;generalist:outerwear,beauty",0.9243243243243244,,http
+wunderwear.dk,Pure Bodywear,0.9232142857142858,Wunderwear,Wunderwear,Denmark,Denmark,HS segment,"bodywear:pyjamas,shapewear,loungewear,bh;generalist:sneaker",0.9232142857142858,,http
+ceceba.com,Pure Bodywear,0.9230769230769232,ceceba,CECEBA Group GmbH|Ceceba Bodywear GmbH|ceceba,Germany,Germany,Body Fashion Trade Fair|FU|HS segment,"bodywear:pyjamas,loungewear,slips,boxershorts,pyjama",0.9230769230769232,,http
+marjolaine.fr,Pure Bodywear,0.9230769230769232,Marjolaine,Marjolaine,France,France,e-com retailers,"bodywear:lingerie,pyjamas,maillots,nuit",0.9230769230769232,,http
+stripeandstare.com,Pure Bodywear,0.9195121951219511,Stripe + Stare,Stripe + Stare,United Kingdom,United Kingdom,FU,"bodywear:underwear,bra,bras,knickers,boxers;generalist:bags",0.9195121951219511,,http
+hesperfox.com,Pure Bodywear,0.9175,hesper-fox,hesper-fox,United Kingdom,United Kingdom,FU,"bodywear:lingerie,sleepwear,pyjamas,swimwear,slips;generalist:kids",0.9175,,http
+ladybelty.com,Pure Bodywear,0.9173076923076924,BELTY,BELTY,Spain,Spain,HS fairs,"bodywear:panties,pyjamas,bikini,thong;generalist:kids",0.9173076923076924,,http
+cyell.com,Pure Bodywear,0.9166666666666666,CYELL,CYELL,Netherlands,Netherlands,FU,"bodywear:swimwear,bikini",0.9166666666666666,,http
+susa-shop.de,Pure Bodywear,0.9150537634408602,SUSA,SUSA,Germany,Germany,Salon,"bodywear:panties,shapewear,bh,slips;generalist:accessoires",0.9150537634408602,,http
+mcalson.com,Pure Bodywear,0.9127450980392156,Agerti NV,Agerti NV|Mc Alson,Belgium,Belgium,Body Fashion Trade Fair|HS segment,"bodywear:briefs,pyjamas,swimwear,swim,boxers;generalist:kids",0.9127450980392156,,http
+pierremantoux.com,Pure Bodywear,0.9104166666666668,PIERRE MANTOUX,PIERRE MANTOUX,Italy,Italy,HS fairs|Salon,"bodywear:hosiery,bikini,bodywear;generalist:home",0.9104166666666668,,http
+curvykate.com,Pure Bodywear,0.9090909090909092,Curvy Kate,Curvy Kate,United Kingdom,United Kingdom,FU,"bodywear:lingerie,bra,bras,swimwear",0.9090909090909092,,http
+inbloom.online,Pure Bodywear,0.9090909090909092,IN BLOOM,IN BLOOM,,,HS fairs,"bodywear:sleepwear,pajamas,loungewear",0.9090909090909092,,http
+rjbodywear.com,Pure Bodywear,0.9046218487394958,engelvaart-bodywear-rj-bodywear-beeren-bodywear,engelvaart-bodywear-rj-bodywear-beeren-bodywear,Netherlands,Netherlands,FU,"bodywear:shapewear,ondergoed,slip,slips,boxershorts;generalist:accessoires",0.9046218487394958,,http
+etam.com,Pure Bodywear,0.9046218487394958,etam,Etam Lingerie|etam,France,France,Dealfront|HS segment,"bodywear:lingerie,pyjamas,loungewear;generalist:accessoires",0.9046218487394958,,http
+lisecharmel.com,Pure Bodywear,0.9022727272727272,Lise Charmel,LISE CHARMEL|Lise Charmel|Lise Charmel Benelux|Lise Charmel Industrie|PARISSIME GMBH,France,Belgium|France|Germany,Body Fashion Trade Fair|Dealfront|FU|Salon|Supreme Body & Beach|e-com retailers,"bodywear:lingerie,bras,briefs,panties,pyjamas;generalist:accessories",0.9022727272727272,,http
+carriwell.com,Pure Bodywear,0.9,Carriwell,Carriwell,Denmark,Denmark,FU,"bodywear:bra,panties,swimwear",0.9,,http
+madiva.it,Pure Bodywear,0.9,MADIVA,MADIVA,Italy,Italy,HS fairs|Salon,"bodywear:nightwear,intimo",0.9,,http
+syversen.com,Pure Bodywear,0.9,SYVERSEN AS,SYVERSEN AS,Norway,Norway,HS segment,bodywear:bikini,0.9,,http
+charliechoe.com,Pure Bodywear,0.8988636363636363,Totolino,Totolino,Belgium,Belgium,Body Fashion Trade Fair,"bodywear:nightwear,pyjamas,slip,pyjama;generalist:home,accessories",0.8988636363636363,,http
+normann.de,Pure Bodywear,0.896875,Normann Wäschefabrik GmbH,Normann Wäschefabrik GmbH,Germany,Germany,HS segment,"bodywear:pyjamas,slips,pyjama,unterwäsche,nachtwäsche;generalist:kinder",0.896875,,http
+isabodywear.ch,Pure Bodywear,0.896875,ISA Sallmann AG,ISA Sallmann AG,Switzerland,Switzerland,HS segment,"bodywear:pyjamas,loungewear,slip,boxershorts,pyjama;generalist:jacken",0.896875,,http
+waescheland.com,Pure Bodywear,0.896875,Normann Wäschefabrik GmbH & Co. KG,Normann Wäschefabrik GmbH & Co. KG,Germany,Germany,Dealfront,"bodywear:pyjamas,slips,pyjama,unterwäsche,nachtwäsche;generalist:kinder",0.896875,,http
+empreinte.eu,Pure Bodywear,0.8943396226415095,Empreinte,EMPREINTE|EMPREINTE GMBH|Empreinte|Empreinte SA,France,France|Germany,Dealfront|HS fairs|HS segment|Salon|Supreme Body & Beach|e-com retailers,"bodywear:lingerie,bra,bras,loungewear,thong;generalist:home,accessories,maison",0.8943396226415095,,http
+redpointbeachwear.com,Pure Bodywear,0.8940476190476191,GUASCH HERMANOS SL,GUASCH HERMANOS SL|Red Point Beachwear,Spain,Spain,HS segment|Supreme Body & Beach,"bodywear:bikini,bañador;generalist:kids",0.8940476190476191,,http
+derek-rose.com,Pure Bodywear,0.8925000000000001,DEREK ROSE United,DEREK ROSE United,United Kingdom,United Kingdom,Salon,"bodywear:underwear,briefs,pyjamas,swim,trunks;generalist:jackets",0.8925000000000001,,http
+leonisa.eu,Pure Bodywear,0.8888888888888888,LEONISA,LEONISA,Spain,Spain,HS fairs,"bodywear:lingerie,underwear,ropa interior",0.8888888888888888,,http
+lisca.si,Pure Bodywear,0.8888888888888888,Lisca,Lisca,Slovenia,Slovenia,HS segment,"bodywear:briefs,string",0.8888888888888888,,http
+timoteo.net,Pure Bodywear,0.8888888888888888,TIMOTEO,TIMOTEO,Belgium,Belgium,Dealfront,"bodywear:underwear,briefs,swimwear,swim,trunks",0.8888888888888888,,http
+lingerielechat.com,Pure Bodywear,0.8862068965517241,LE CHAT,LE CHAT|Le Chat,France,France,HS fairs|Salon,"bodywear:nightwear,pyjamas,loungewear,pyjama;generalist:jackets",0.8862068965517241,,http
+conzelmann.de,Pure Bodywear,0.8821428571428572,Karl Conzelmann GmbH + Co. KG,Karl Conzelmann GmbH + Co. KG,Germany,Germany,HS segment,"bodywear:loungewear,bh,slips,string,hipster;generalist:home",0.8821428571428572,,http
+ninavonc.de,Pure Bodywear,0.8821428571428572,NINA VON C.,Karl Conzelmann GmbH & Co. KG|NINA VON C.,Germany,Germany,Dealfront|Supreme Body & Beach,"bodywear:loungewear,bh,slips,string,hipster;generalist:home",0.8821428571428572,,http
+hunkemoller.com,Pure Bodywear,0.8808510638297872,Hunkemöller,Hunkemoller|Hunkemöller|Hunkemöller International B.V.,Netherlands,Netherlands,Dealfront|HS segment|e-com retailers,"bodywear:lingerie,bra,bras,nightwear,bodywear;generalist:home,accessories",0.8808510638297872,,http
+floralastraioli.com,Pure Bodywear,0.875,FLORA LASTRAIOLI,FLORA LASTRAIOLI,Italy,Italy,HS fairs|Salon,"bodywear:lingerie,underwear,nightwear",0.875,,http
+passionata.com,Pure Bodywear,0.875,Passionata,Passionata,France,France,e-com retailers,"bodywear:lingerie,loungewear",0.875,,http
+erlich-textil.de,Pure Bodywear,0.875,Vorfreude GmbH,Vorfreude GmbH,Germany,Germany,HS segment,"bodywear:unterwäsche,nachtwäsche",0.875,,http
+frankdandy.com,Pure Bodywear,0.8691176470588236,frank-dandy,Frank Dandy AB|frank-dandy,Sweden,Sweden,FU|HS segment,"bodywear:underwear,bras,panties,swim,undies;generalist:kids",0.8691176470588236,,http
+lisca.de,Pure Bodywear,0.8691176470588236,Lisca Group Deutschland GmbH,Lisca Group Deutschland GmbH,Germany,Germany,HS segment,"bodywear:briefs,bh,slip,slips,string;generalist:accessoires",0.8691176470588236,,http
+escora-dessous.de,Pure Bodywear,0.8657894736842104,Escora,Escora|Escora Lingerie,Germany,Germany,FU|HS segment,"bodywear:shapewear,loungewear,bh,slip,slips;generalist:accessoires,mäntel,taschen",0.8657894736842104,,firecrawl
+benibeca.com,Pure Bodywear,0.8571428571428571,Benibeca,Benibeca,Spain,Spain,FU,bodywear:swim,0.8571428571428571,,http
+sassa.eu,Pure Bodywear,0.8571428571428571,SASSA MODE,SASSA MODE,Germany,Germany,Salon,"bodywear:panties,loungewear,slips,unterwäsche,bademode",0.8571428571428571,,http
+swedishstockings.com,Pure Bodywear,0.8571428571428571,SWEDISH STOCKINGS,SWEDISH STOCKINGS|Swedish Stocking AB,Sweden,Sweden,HS segment|Salon,bodywear:shapewear,0.8571428571428571,,http
+chantylace.com,Pure Bodywear,0.8571428571428571,CHANTY LACE,CHANTY LACE,Germany,Germany,HS fairs,"bodywear:lingerie,briefs",0.8571428571428571,,http
+sassamode.com,Pure Bodywear,0.8571428571428571,SASsa Mode GmbH,SASsa Mode GmbH,Germany,Germany,Dealfront|HS fairs|HS segment,"bodywear:panties,loungewear,slips,unterwäsche,bademode",0.8571428571428571,,http
+zetex.nl,Pure Bodywear,0.8571428571428571,Zetex B.V.,ZETEX BODY FAVOURITES|Zetex B.V.,Netherlands,Netherlands,HS fairs|HS segment|Supreme Body & Beach,"bodywear:badmode,pyjama",0.8571428571428571,,http
+achieveprime.com,Pure Bodywear,0.8571428571428571,Achieve Prime,Achieve Prime,Germany,Germany,HS segment,bodywear:bh,0.8571428571428571,,http
+www.sassamode.com,Pure Bodywear,0.8571428571428571,,,,,,"bodywear:panties,loungewear,slips,unterwäsche,bademode",0.8571428571428571,,http
+paindesucre.com,Pure Bodywear,0.8566666666666667,CREATION MEDITERRANEE,CREATION MEDITERRANEE|Creation Mediterranee,France,France,Dealfront|Supreme Body & Beach,"bodywear:lingerie,maillots;generalist:maison",0.8566666666666667,,http
+euromoda-neuss.com,Pure Bodywear,0.8565217391304347,Euromoda Modecenter,Euromoda Modecenter,Germany,Germany,HS segment,bodywear:lingerie;generalist:home,0.8565217391304347,,http
+agentprovocateur.com,Pure Bodywear,0.855,Agent Provocateur,Agent Provocateur,United Kingdom,United Kingdom,FU,vision_screenshot:0.95;text_extraction_failed,0.0,0.95,playwright
+laperla.com,Pure Bodywear,0.855,La Perla,La Perla,Germany,Germany|Italy,FU|HS segment,vision_screenshot:0.95;text_extraction_failed,0.0,0.95,playwright
+maisonlejaby.com,Pure Bodywear,0.855,Maison Lejaby,La Maison Lejaby|MAISON LEJABY|MAISONLEJABY|Maison Lejaby,France,France,Dealfront|FU|HS fairs|Salon|e-com retailers,vision_screenshot:0.95;text_extraction_failed,0.0,0.95,playwright
+gossard.com,Pure Bodywear,0.855,gossard,gossard,United Kingdom,United Kingdom,FU,vision_screenshot:0.95;text_extraction_failed,0.0,0.95,playwright
+sardaworld.com,Pure Bodywear,0.855,SARDA,SARDA,Belgium,Belgium,Salon,vision_screenshot:0.95;text_extraction_failed,0.0,0.95,playwright
+wacoal-america.com,Pure Bodywear,0.855,Wacoal,Wacoal,Japan/USA,Japan/USA,e-com retailers,vision_screenshot:0.95;text_extraction_failed,0.0,0.95,playwright
+loungeunderwear.com,Pure Bodywear,0.855,Lounge Underwear Ltd,Lounge Underwear Ltd,United Kingdom,United Kingdom,HS segment,vision_screenshot:0.95;text_extraction_failed,0.0,0.95,playwright
+lounge.com,Pure Bodywear,0.855,Lounge Underwear Limited,Lounge Underwear Limited,United Kingdom,United Kingdom,Dealfront,vision_screenshot:0.95;text_extraction_failed,0.0,0.95,playwright
+nisseparis.com,Pure Bodywear,0.8500000000000001,LINE PARIS,LINE PARIS,France,France,Salon,bodywear:bra;vision_screenshot:0.90,0.8,0.9,http+vision
+ludiqueshop.com,Pure Bodywear,0.85,Ludique,Ludique,Sweden,Sweden,FU,"bodywear:lingerie,underwear,bras,nightwear,loungewear;generalist:outerwear,accessories",0.85,,http
+valege.com,Pure Bodywear,0.8487179487179487,Valege Lingerie,VALEGE|VALÉGE|Valege Distribution|Valege Lingerie,France,France,Dealfront|HS fairs|HS segment|Salon,"bodywear:lingerie,loungewear,pyjama,soutien-gorge,maillots;generalist:accessoires;vision_screenshot:0.90",0.7974358974358974,0.9,http+vision
+flaviavalentini.com,Pure Bodywear,0.8464285714285714,FLAVIA VALENTINI ROMA,FLAVIA VALENTINI ROMA,Italy,Italy,Supreme Body & Beach,"bodywear:swimwear,loungewear,slip,costumi;generalist:accessori",0.8464285714285714,,http
+cyberjammies.com,Pure Bodywear,0.8423611111111111,CYBERJAMMIES United,CYBERJAMMIES|CYBERJAMMIES United,United Kingdom,United Kingdom,HS fairs|Salon,"bodywear:underwear,nightwear,pyjamas,loungewear,pyjama;generalist:kids,accessories",0.8423611111111111,,http
+hunkemoller.be,Pure Bodywear,0.842,Hunkemöller International B.V.,Hunkemöller International B.V.,Netherlands,Netherlands,Dealfront,"bodywear:lingerie,bodywear,bh,slips,nachtmode;generalist:accessoires",0.842,,http
+ethel.it,Pure Bodywear,0.8355555555555555,CREAZIONI ETHEL S.R.L.,CREAZIONI ETHEL S.R.L.,Italy,Italy,Supreme Body & Beach,"bodywear:lingerie,notte;generalist:giacche",0.8355555555555555,,http
+leslipfrancais.fr,Pure Bodywear,0.8333333333333334,Le Slip Francais,Le Slip Francais|Le Slip Français,France,France,Dealfront|FU|HS segment,"bodywear:boxers,slip",0.8333333333333334,,http
+speedo.com,Pure Bodywear,0.8333333333333334,Speedo,Speedo,United Kingdom,United Kingdom,FU,"bodywear:bra,swimwear,swim",0.8333333333333334,,http
+occidente.fr,Pure Bodywear,0.8333333333333334,occidente,occidente,France,France,FU,bodywear:lingerie,0.8333333333333334,,http
+happy-undies.com,Pure Bodywear,0.8333333333333334,Happy Undies,HAPPY UNDIES|HAPPY UNDIES (VIVACQUA OHG)|Happy Undies,Germany,Germany,HS fairs|HS segment|Salon|Supreme Body & Beach,"bodywear:undies,string",0.8333333333333334,,http
+apartoftheart.com,Pure Bodywear,0.8333333333333334,A Part Of The Art,A Part Of The Art,Unknown,Unknown,e-com retailers,bodywear:loungewear,0.8333333333333334,,http
+soeurtokyo.com,Pure Bodywear,0.8333333333333334,SOEUR TOKYO,SOEUR TOKYO,,,HS fairs,bodywear:lingerie,0.8333333333333334,,http
+hanro.com,Pure Bodywear,0.8333333333333334,HUBER Holding AG,HANRO DEUTSCHLAND GMBH|HANRO International GmbH|HUBER Holding AG,Austria,Austria|Germany,Dealfront|HS fairs|HS segment|Supreme Body & Beach,"bodywear:underwear,bras,panties,slips",0.8333333333333334,,http
+elg-corporate.com,Pure Bodywear,0.8333333333333334,European Lingerie Group,European Lingerie Group,Germany,Germany,HS segment,bodywear:lingerie,0.8333333333333334,,http
+bleuforet.fr,Pure Bodywear,0.8333333333333334,"Tricotage des Vosges, Bleu Foret Bleu Etc","Tricotage des Vosges, Bleu Foret Bleu Etc",France,France,Dealfront,"bodywear:panties,boxer",0.8333333333333334,,http
+comazo.de,Pure Bodywear,0.8319148936170213,Comazo,COMAZO GmbH & Co. KG|Comazo|Comazo GmbH & Co KG,Germany,Germany,Dealfront|FU|HS segment,"bodywear:panties,shapewear,trunks,bh,slips;generalist:accessoires",0.8319148936170213,,http
+beerenondergoed.nl,Pure Bodywear,0.82875,Beeren Bodywear,Beeren Bodywear,Netherlands,Netherlands,FU,"bodywear:ondergoed,slip,slips,nachtkleding,boxershorts;generalist:baby,kinder",0.82875,,http
+tencate1952.com,Pure Bodywear,0.828030303030303,ten-cate,ten-cate,Netherlands,Netherlands,FU,"bodywear:shapewear,bikini,ondergoed,bh,slips;generalist:kinderen,accessoires,kinder",0.828030303030303,,http
+brunobanani.com,Pure Bodywear,0.8263157894736841,bruno banani,bruno banani|bruno banani underwear GmbH,Germany,Germany,Dealfront|FU,"bodywear:panties,slips,boxershorts,unterwäsche,bademode;generalist:beauty",0.8263157894736841,,http
+aikyou.de,Pure Bodywear,0.825,Aikyou GmbH,Aikyou GmbH,Germany,Germany,HS segment,bodywear:bh;vision_screenshot:0.85,0.8,0.85,http+vision
+lisecharmel.fr,Pure Bodywear,0.8238636363636364,Lise Charmel,Lise Charmel,France,France,HS fairs|HS segment,"bodywear:lingerie,loungewear,nuit;generalist:accessoires;vision_screenshot:0.85",0.7977272727272727,0.85,http+vision
+reinaolga.com,Pure Bodywear,0.8238636363636364,Reina Olga,Reina Olga,Switzerland,Switzerland,HS segment,"bodywear:swimwear,swim,bikini;generalist:accessories;vision_screenshot:0.85",0.7977272727272727,0.85,http+vision
+organicbasics.com,Pure Bodywear,0.8225806451612903,organic basics,ORGANIC BASICS|organic basics,Denmark,Denmark,FU|Salon,"bodywear:underwear,bras,pyjamas,swimwear,loungewear;generalist:accessories;vision_screenshot:0.90",0.7451612903225806,0.9,http+vision
+achile.com,Pure Bodywear,0.8208333333333334,Sourcing Project,Sourcing Project,France,France,Dealfront,"bodywear:underwear,pajamas,pyjamas,boxers,boxer;generalist:home",0.8208333333333334,,http
+chelseapeersnyc.com,Pure Bodywear,0.8204545454545454,Chelsea Peers,Chelsea Peers,United Kingdom,United Kingdom,FU,"bodywear:pyjamas,swim,pyjama;generalist:jackets,accessories",0.8204545454545454,,http
+atelier-amour.com,Pure Bodywear,0.8204545454545454,ATELIER AMOUR,ATELIER AMOUR,France,France,HS fairs,"bodywear:lingerie,boxers,soutien-gorge,culotte,nuit;generalist:accessoires",0.8204545454545454,,http
+nenes-paris.com,Pure Bodywear,0.8175675675675675,Nénés,Nénés,France,France,FU,"bodywear:lingerie,pyjamas;generalist:accessoires,vestes,bijoux",0.8175675675675675,,http
+bananamoon.com,Pure Bodywear,0.8166666666666667,Banana Moon,Banana Moon|MC COMPANY,Monaco,Belgium|France|Monaco,Body Fashion Trade Fair|FU|HS segment|e-com retailers,"bodywear:swimwear,bikini,loungewear,thong,shorty;generalist:accessories",0.8166666666666667,,http
+sockmyfeet.com,Pure Bodywear,0.8145833333333333,Sock My Feet,Sock My Feet,Netherlands,Netherlands,FU,"bodywear:underwear,boxer,sokken;generalist:home",0.8145833333333333,,http
+snocks.com,Pure Bodywear,0.81375,Snocks,Snocks,Germany,Germany,HS segment,"bodywear:pyjamas,trunks,slips,boxershorts,unterwäsche;generalist:accessoires;vision_screenshot:0.85",0.7775000000000001,0.85,http+vision
+sanscomplexe.com,Pure Bodywear,0.81,Sans Complexe Lingerie,SANS COMPLEXE|Sans Complexe Lingerie,France,France,FU|Salon,vision_screenshot:0.90;text_extraction_failed,0.0,0.9,playwright
+antigel.com,Pure Bodywear,0.81,ANTIGEL,ANTIGEL,France,France,Salon,vision_screenshot:0.90;text_extraction_failed,0.0,0.9,playwright
+aubade.com,Pure Bodywear,0.81,AUBADE PARIS,AUBADE PARIS|Aubade,France,France,Salon|e-com retailers,vision_screenshot:0.90;text_extraction_failed,0.0,0.9,playwright
+aubade.eu,Pure Bodywear,0.81,Aubade Paris,Aubade Paris,France,France,HS segment,vision_screenshot:0.90;text_extraction_failed,0.0,0.9,playwright
+inter-spitzen.ch,Pure Bodywear,0.8058823529411764,INTER-SPITZEN,INTER-SPITZEN,Switzerland,Switzerland,HS fairs,"bodywear:lingerie,swimwear,loungewear;generalist:outerwear",0.8058823529411764,,http
+stilladore.com,Pure Bodywear,0.8055555555555556,STILL ADORE,STILL ADORE,,,HS fairs,"bodywear:bras,panties,hipster,tanga;generalist:home;vision_screenshot:0.85",0.7611111111111111,0.85,http+vision
+guydefrance.com,Pure Bodywear,0.8055555555555556,Guy de France Lingerie,Guy de France Lingerie,Belgium,Belgium,HS fairs|HS segment,"bodywear:lingerie,ondergoed;generalist:home;vision_screenshot:0.85",0.7611111111111111,0.85,http+vision
+effek.it,Pure Bodywear,0.8015873015873015,F**K,F**K,Italy,Italy,HS segment,"bodywear:bikini,slip,costumi;generalist:bags,accessori,borse",0.8015873015873015,,http
+fr.simone-perele.com,Pure Bodywear,0.8,SIMONE PERELE,SIMONE PERELE,France,France,Salon,"bodywear:lingerie,shapewear,loungewear,nuit;generalist:accessoires",0.8,,http
+shopatmira.com,Pure Bodywear,0.8,MIRA,MIRA,,,HS fairs,bodywear:sleepwear,0.8,,http
+lingeriecup.com,Pure Bodywear,0.7906249999999999,"WING-WIN ENTERPRISE CO., LTD","WING-WIN ENTERPRISE CO., LTD",,,HS fairs,"bodywear:lingerie,bra;generalist:accessories;vision_screenshot:0.85",0.73125,0.85,http+vision
+hunkemoller.fr,Pure Bodywear,0.7887931034482758,Hunkemöller International B.V.,Hunkemöller International B.V.,Netherlands,Netherlands,Dealfront,"bodywear:lingerie,bodywear,soutien-gorge,nuit;generalist:accessoires;vision_screenshot:0.85",0.7275862068965517,0.85,http+vision
+acquadicocco.com,Pure Bodywear,0.7871621621621622,ACQUADICOCCO,ACQUADICOCCO,Italy,Italy,HS fairs|Salon,"bodywear:swimwear,bikini,costumi;generalist:home,accessori,borse;vision_screenshot:0.85",0.7243243243243244,0.85,http+vision
+princessetamtam.com,Pure Bodywear,0.7858490566037736,Princesse Tam Tam,Princesse Tam Tam,France,France,Dealfront,"bodywear:lingerie,bra,bras,briefs,panties;generalist:jeans,coats,jackets",0.7858490566037736,,firecrawl
+maison-close.com,Pure Bodywear,0.78359375,maison-close,maison-close,France,France,FU,"bodywear:lingerie,bras,panties,thong,boxer;generalist:accessories,jewelry,maison;vision_screenshot:0.85",0.7171875,0.85,http+vision
+beldona.com,Pure Bodywear,0.7816793893129771,Beldona AG,Beldona AG,Switzerland,Switzerland,Dealfront,"bodywear:lingerie,panties,shapewear,loungewear,bh;generalist:accessoires",0.7816793893129771,,http
+sunflair.de,Pure Bodywear,0.7792857142857144,Adolf Riedl GmbH & Co. KG,Adolf Riedl GmbH & Co. KG,Germany,Germany,Dealfront,"bodywear:bikini,bademode;generalist:home,accessories;vision_screenshot:0.85",0.7085714285714286,0.85,http+vision
+grain-de-sable.fr,Pure Bodywear,0.7738636363636364,Sarl Grain de Sable France,Sarl Grain de Sable France,France,France,Dealfront,"bodywear:string,tanga,culotte,maillots;generalist:accessoires;vision_screenshot:0.75",0.7977272727272727,0.75,http+vision
+maison-leveque.com,Pure Bodywear,0.7714285714285714,MAISON LEVEQUE,MAISON LEVEQUE,France,France,HS fairs,bodywear:lingerie;generalist:maison;vision_screenshot:0.85,0.6928571428571428,0.85,http+vision
+group.chantellelingerie.com,Pure Bodywear,0.7714285714285714,CHANTELLE LINGERIE GMBH,CHANTELLE LINGERIE GMBH,Germany,Germany,Supreme Body & Beach,bodywear:lingerie;generalist:home;vision_screenshot:0.85,0.6928571428571428,0.85,http+vision
+primadonna.com,Pure Bodywear,0.765,PrimaDonna,PRIMADONNA|Prima Donna Bain|PrimaDonna|PrimaDonna Twist,Belgium,Belgium|Italy,FU|Salon|e-com retailers,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+sloggi.com,Pure Bodywear,0.765,Sloggi,Sloggi,Switzerland,Switzerland,FU|e-com retailers,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+yse-paris.com,Pure Bodywear,0.765,Ysé,Ysé,France,France,FU,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+anita.com,Pure Bodywear,0.765,anita,ANITA ACTIVE|ANITA CARE|ANITA DR. HELBIG GMBH|ANITA MATERNITY|ANITA SINCE 1886|Anita|Anita Belgium NV|ROSA FAIA|Rosa Faia|anita,Germany,Belgium|Germany|United Kingdom,Body Fashion Trade Fair|FU|Salon|Supreme Body & Beach|e-com retailers,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+mey.com,Pure Bodywear,0.765,mey,MEY|MEY GMBH & CO. KG|Mey|Mey GmbH & Co. KG|mey,Germany,Germany,Dealfront|FU|Salon|Supreme Body & Beach|e-com retailers,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+byebra.eu,Pure Bodywear,0.765,BYE BRA,BYE BRA,Netherlands,Netherlands,Salon,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+mariejo.com,Pure Bodywear,0.765,MARIE JO,MARIE JO,Belgium,Belgium,Salon,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+bodyandbeach.nl,Pure Bodywear,0.765,Body and Beach,Body and Beach,Netherlands,Netherlands,Body Fashion Trade Fair|HS fairs|HS segment,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+panache-lingerie.com,Pure Bodywear,0.765,PANACHE LINGERIE LTD,PANACHE LINGERIE LTD|Panache Lingerie LTD,GB,GB|United Kingdom,HS fairs|Supreme Body & Beach,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+reign-studio.com,Pure Bodywear,0.765,REIGN STUDIO,REIGN STUDIO,United Kingdom,United Kingdom,HS fairs,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+dgywk.cn,Pure Bodywear,0.765,UWORK,UWORK,,,HS fairs,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+ilonibydilan.com,Pure Bodywear,0.765,ILONI BY DILAN,ILONI BY DILAN,,,HS fairs,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+vandevelde.eu,Pure Bodywear,0.765,Van de Velde,Van de Velde,Belgium,Belgium,HS fairs|HS segment,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+anita.net,Pure Bodywear,0.765,Anita Dr. Helbig GmbH,Anita Dr. Helbig GmbH,Germany,Germany,HS fairs|HS segment,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+theunderdays.com,Pure Bodywear,0.765,theunderdays.com,theunderdays.com,United Kingdom,United Kingdom,HS segment,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+dim.com,Pure Bodywear,0.765,DIM International Brands,DIM International Brands,France,France,HS segment,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+calidagroup.com,Pure Bodywear,0.765,CALIDA Holding AG,CALIDA Holding AG,Switzerland,Switzerland,HS segment,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+girlsinparis.com,Pure Bodywear,0.765,Girls In Paris,Girls In Paris,France,France,HS segment,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+missmary.com,Pure Bodywear,0.765,Miss Mary of Sweden AB,Miss Mary of Sweden AB,Sweden,Sweden,Dealfront,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+dim.fr,Pure Bodywear,0.765,Dim France Sas,Dim France Sas,France,France,Dealfront,vision_screenshot:0.85;text_extraction_failed,0.0,0.85,playwright
+lovesecrethk.com,Pure Bodywear,0.7583333333333333,LOVE SECRET,LOVE SECRET,,,HS fairs,bodywear:bra;vision_screenshot:0.85,0.6666666666666666,0.85,http+vision
+int.li-vy.com,Pure Bodywear,0.753030303030303,livy,livy,France,France,FU,"bodywear:lingerie,swimwear;generalist:accessoires;vision_screenshot:0.85",0.6560606060606061,0.85,http+vision
+lesrituelles.fr,Pure Bodywear,0.7509615384615385,ACTION CULOTTÉE,ACTION CULOTTÉE,France,France,HS fairs,"bodywear:lingerie,dessous,sous-vêtements;generalist:accessoires,bijoux;vision_screenshot:0.85",0.6519230769230769,0.85,http+vision
+borneo-paris.com,Pure Bodywear,0.75,Borneo,Borneo,France,France,Dealfront,bodywear:swimwear;vision_screenshot:0.75,0.75,0.75,http+vision
+kokoaka.com,Pure Bodywear,0.7424528301886792,KOKOAKA,KOKOAKA,,,HS fairs,"bodywear:swimwear,bikini;generalist:accessories",0.7424528301886792,,http
+miss-perfect.shop,Pure Bodywear,0.7256578947368421,APPAREL PARTNERS INT. GMBH,APPAREL PARTNERS INT. GMBH,Germany,Germany,Supreme Body & Beach,"bodywear:shapewear,bh,slips,dessous;generalist:accessoires;vision_screenshot:0.75",0.7013157894736841,0.75,http+vision
+cakematernity.com,Pure Bodywear,0.7250000000000001,Pure Comfort,Pure Comfort,Netherlands,Netherlands,Body Fashion Trade Fair,"bodywear:underwear,bras,sleepwear,swimwear;generalist:accessories;vision_screenshot:0.75",0.7000000000000001,0.75,http+vision
+goetzburg.com,Pure Bodywear,0.7200000000000001,gotzburg,gotzburg,Germany,Germany,FU,vision_screenshot:0.80;text_extraction_failed,0.0,0.8,playwright
+laviantmie.com,Pure Bodywear,0.71875,LAVIANT MIË,LAVIANT MIË,Germany,Germany,Salon,bodywear:lingerie;generalist:home;vision_screenshot:0.85,0.5875,0.85,http+vision
+sh-dessous.de,Pure Bodywear,0.7166666666666667,SH-Dessous Sandra Hamann,SH-Dessous Sandra Hamann,Germany,Germany,Dealfront,"bodywear:lingerie,shapewear,slips,dessous,nachtwäsche;generalist:home,accessoires",0.7166666666666667,,http
+1-9-7-9.com,Pure Bodywear,0.7130000000000001,1979 SWIMWEAR,1979 SWIMWEAR,Germany,Germany,FU,"bodywear:swimwear,bikini;generalist:home,bags;vision_screenshot:0.65",0.776,0.65,http+vision
+shopunderstatement.com,Pure Bodywear,0.7,UNDERSTATEMENT,UNDERSTATEMENT|Understatement,Sweden,Sweden,FU|HS fairs|Salon,bodywear:panties;vision_screenshot:0.90,0.5,0.9,http+vision
+ringella.com,Pure Bodywear,0.7,Ringella Onlineshop GmbH & Co. KG,Ringella Onlineshop GmbH & Co. KG,Germany,Germany,HS fairs|HS segment,"bodywear:pyjamas,loungewear,nachtwäsche;vision_screenshot:0.65",0.75,0.65,http+vision
+novila.de,Pure Bodywear,0.7,Novila GmbH,Novila GmbH,Germany,Germany,HS segment,"bodywear:unterwäsche,nachtwäsche;vision_screenshot:0.65",0.75,0.65,http+vision

@@ -1,0 +1,89 @@
+{
+  "cmp_providers": {
+    "onetrust": {
+      "banner": "#onetrust-banner-sdk",
+      "accept_button": "#onetrust-accept-btn-handler",
+      "close_button": ".onetrust-close-btn-handler"
+    },
+    "cookiebot": {
+      "banner": "#CybotCookiebotDialog",
+      "accept_button": "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+      "close_button": ".CybotCookiebotDialogBodyButton"
+    },
+    "trustarc": {
+      "banner": "#truste-consent-track",
+      "accept_button": ".trustarc-agree-btn",
+      "close_button": ".trustarc-close"
+    },
+    "quantcast": {
+      "banner": "#qc-cmp2-ui",
+      "accept_button": "button[mode='primary']",
+      "close_button": ".qc-cmp2-close-icon"
+    },
+    "didomi": {
+      "banner": "#didomi-notice",
+      "accept_button": "#didomi-notice-agree-button",
+      "close_button": ".didomi-popup-notice-close"
+    }
+  },
+  "generic_accept_patterns": {
+    "button_texts": [
+      "accept all",
+      "accept all cookies",
+      "allow all",
+      "agree",
+      "akkoord",
+      "alles accepteren",
+      "alle cookies accepteren",
+      "aceptar",
+      "aceptar todo",
+      "tout accepter",
+      "accepter tous",
+      "alle akzeptieren",
+      "akzeptieren",
+      "accetta tutto",
+      "accettare"
+    ],
+    "button_roles": [
+      "button"
+    ]
+  },
+  "newsletter_patterns": {
+    "container_selectors": [
+      "[class*='modal']",
+      "[class*='popup']",
+      "[class*='overlay']",
+      "[class*='newsletter']",
+      "[class*='subscribe']",
+      "[id*='modal']",
+      "[id*='popup']"
+    ],
+    "close_selectors": [
+      "[aria-label*='close' i]",
+      "[aria-label*='dismiss' i]",
+      "[aria-label*='fermer' i]",
+      "[aria-label*='schließen' i]",
+      "[aria-label*='cerrar' i]",
+      "button.close",
+      ".close-button",
+      ".modal-close",
+      "[class*='close']"
+    ],
+    "close_texts": [
+      "×",
+      "✕",
+      "close",
+      "no thanks",
+      "not now",
+      "later",
+      "non merci",
+      "pas maintenant",
+      "nein danke",
+      "später",
+      "no gracias",
+      "ahora no",
+      "no grazie",
+      "non ora"
+    ]
+  }
+}
