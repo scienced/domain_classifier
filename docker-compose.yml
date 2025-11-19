@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: classifier-backend
+    ports:
+      - "8000:8000"
+    environment:
+      # Load from .env file
+      - DEBUG=${DEBUG:-false}
+      - AUTH_PASSWORD=${AUTH_PASSWORD:-changeme}
+      - AUTH_TOKEN_SECRET=${AUTH_TOKEN_SECRET}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - FIRECRAWL_API_KEY=${FIRECRAWL_API_KEY}
+      - DATABASE_URL=sqlite:////app/data/classifier.db
+      - WORKER_ENABLED=true
+    volumes:
+      # Persistent database storage
+      - ./data:/app/data
+      # Mount config directory
+      - ./config:/app/config:ro
+    restart: unless-stopped
+    networks:
+      - classifier-network
+
+  frontend:
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+    container_name: classifier-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - classifier-network
+
+networks:
+  classifier-network:
+    driver: bridge
+
+volumes:
+  data:
