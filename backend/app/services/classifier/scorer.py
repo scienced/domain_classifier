@@ -26,8 +26,12 @@ class Scorer:
         self.vision_config = config['vision']
         self.scoring_config = config['scoring']
 
-        # OpenAI client
-        self.openai_client = AsyncOpenAI(api_key=openai_api_key) if openai_api_key else None
+        # CRITICAL FIX: OpenAI client with timeout to prevent hanging requests
+        self.openai_client = AsyncOpenAI(
+            api_key=openai_api_key,
+            timeout=60.0,  # 60 second timeout for API calls
+            max_retries=2  # Retry failed requests up to 2 times
+        ) if openai_api_key else None
 
         # Stage B trigger range
         self.stage_b_range = self.scoring_config['stage_b_trigger_range']

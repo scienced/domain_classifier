@@ -38,9 +38,8 @@ class ApiTracker:
             tokens_used: Number of tokens used (if available)
             image_count: Number of images analyzed
         """
+        db = SessionLocal()
         try:
-            db = SessionLocal()
-
             # Estimate cost based on image count
             estimated_cost = ApiTracker.OPENAI_VISION_COST_PER_IMAGE * image_count
 
@@ -57,12 +56,14 @@ class ApiTracker:
 
             db.add(usage)
             db.commit()
-            db.close()
 
             logger.debug(f"Tracked OpenAI Vision API call: success={success}, cost=${estimated_cost:.4f}")
 
         except Exception as e:
             logger.error(f"Failed to track OpenAI API usage: {e}")
+            db.rollback()  # CRITICAL FIX: Rollback on error
+        finally:
+            db.close()  # CRITICAL FIX: Always close session
 
     @staticmethod
     def track_firecrawl(
@@ -80,9 +81,8 @@ class ApiTracker:
             success: Whether the API call succeeded
             error_message: Error message if failed
         """
+        db = SessionLocal()
         try:
-            db = SessionLocal()
-
             usage = ApiUsage(
                 provider=ApiProvider.FIRECRAWL,
                 operation="scrape",
@@ -95,12 +95,14 @@ class ApiTracker:
 
             db.add(usage)
             db.commit()
-            db.close()
 
             logger.debug(f"Tracked Firecrawl API call: success={success}, cost=${ApiTracker.FIRECRAWL_COST_PER_SCRAPE:.4f}")
 
         except Exception as e:
             logger.error(f"Failed to track Firecrawl API usage: {e}")
+            db.rollback()  # CRITICAL FIX: Rollback on error
+        finally:
+            db.close()  # CRITICAL FIX: Always close session
 
     @staticmethod
     def get_usage_statistics(db: Session, days: int = 30) -> dict:

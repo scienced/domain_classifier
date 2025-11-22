@@ -58,9 +58,9 @@ class Worker:
             await asyncio.sleep(1)
 
     async def _process_next_run(self):
-        """Find and process next pending run"""
+        """CRITICAL FIX: Find and process next pending run with short-lived sessions"""
+        # Use short-lived session to find run
         db: Session = SessionLocal()
-
         try:
             # Find next pending or running run
             run = db.query(Run).filter(
@@ -71,51 +71,82 @@ class Worker:
                 return
 
             self.current_run_id = run.id
-            logger.info(f"Processing run {run.id}: {run.name}")
+            run_id = run.id
+            run_name = run.name
+            logger.info(f"Processing run {run_id}: {run_name}")
 
-            # Mark run as running if pending
+            # Mark run as running if pending (separate session)
             if run.status == RunStatus.PENDING:
                 run.status = RunStatus.RUNNING
                 run.started_at = datetime.utcnow()
                 db.commit()
+        finally:
+            db.close()  # Close initial session
 
-            # Process pending records
+        # Process pending records - each with its own session
+        try:
             while not self.should_stop:
-                # Get next pending record
-                record = db.query(Record).filter(
-                    Record.run_id == run.id,
-                    Record.status == RecordStatus.PENDING
-                ).first()
+                # CRITICAL FIX: New session for each record
+                db_record = SessionLocal()
+                try:
+                    # Get next pending record
+                    record = db_record.query(Record).filter(
+                        Record.run_id == run_id,
+                        Record.status == RecordStatus.PENDING
+                    ).first()
 
-                if not record:
-                    # No more pending records, mark run as completed
-                    run.status = RunStatus.COMPLETED
-                    run.completed_at = datetime.utcnow()
-                    db.commit()
-                    logger.info(f"Run {run.id} completed")
-                    break
+                    if not record:
+                        # No more pending records, mark run as completed
+                        db_final = SessionLocal()
+                        try:
+                            run = db_final.query(Run).get(run_id)
+                            if run:
+                                run.status = RunStatus.COMPLETED
+                                run.completed_at = datetime.utcnow()
+                                db_final.commit()
+                                logger.info(f"Run {run_id} completed")
+                        finally:
+                            db_final.close()
+                        break
 
-                # Process record
-                await self._process_record(record, db)
+                    # Process record with its own session
+                    await self._process_record(record, db_record)
+                    db_record.commit()
 
-                # Update run progress counter
-                run.processed_records = db.query(Record).filter(
-                    Record.run_id == run.id,
-                    Record.status.in_([RecordStatus.COMPLETED, RecordStatus.ERROR])
-                ).count()
-                db.commit()
+                except Exception as e:
+                    logger.error(f"Error processing record: {e}", exc_info=True)
+                    db_record.rollback()
+                finally:
+                    db_record.close()  # Always close record session
+
+                # Update run progress (separate session to avoid long locks)
+                db_progress = SessionLocal()
+                try:
+                    run = db_progress.query(Run).get(run_id)
+                    if run:
+                        run.processed_records = db_progress.query(Record).filter(
+                            Record.run_id == run_id,
+                            Record.status.in_([RecordStatus.COMPLETED, RecordStatus.ERROR])
+                        ).count()
+                        db_progress.commit()
+                finally:
+                    db_progress.close()
 
         except Exception as e:
             logger.error(f"Error processing run: {e}", exc_info=True)
+            # Mark run as failed (separate session)
             if self.current_run_id:
-                run = db.query(Run).filter(Run.id == self.current_run_id).first()
-                if run:
-                    run.status = RunStatus.FAILED
-                    db.commit()
+                db_fail = SessionLocal()
+                try:
+                    run = db_fail.query(Run).get(self.current_run_id)
+                    if run:
+                        run.status = RunStatus.FAILED
+                        db_fail.commit()
+                finally:
+                    db_fail.close()
         finally:
             self.current_run_id = None
             self.current_domain = None
-            db.close()
 
     async def _process_record(self, record: Record, db: Session):
         """Process a single record"""
