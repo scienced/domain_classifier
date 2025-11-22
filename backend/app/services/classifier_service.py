@@ -66,6 +66,10 @@ class ClassifierService:
         self._browser = None
         self._playwright = None
 
+        # MEMORY FIX: Track domains processed for periodic browser restart
+        self._domains_processed_since_browser_start = 0
+        self._browser_restart_interval = self.config.get('browser_restart_interval', 200)
+
     async def _ensure_browser(self):
         """Ensure Playwright browser is initialized"""
         if self._browser is None:
@@ -80,6 +84,7 @@ class ClassifierService:
                     '--no-sandbox'
                 ]
             )
+            self._domains_processed_since_browser_start = 0
             logger.info("Playwright browser initialized")
 
     async def close(self):
@@ -91,6 +96,12 @@ class ClassifierService:
             await self._playwright.stop()
             self._playwright = None
             logger.info("Playwright browser closed")
+
+    async def _restart_browser(self):
+        """MEMORY FIX: Restart browser to clear Chromium memory buildup"""
+        logger.info(f"Restarting browser after {self._domains_processed_since_browser_start} domains to prevent memory leak")
+        await self.close()
+        await self._ensure_browser()
 
     async def classify_domain(self, domain: str) -> Dict:
         """
@@ -123,6 +134,10 @@ class ClassifierService:
         try:
             # Ensure browser is ready for Stage 2/3 if needed
             await self._ensure_browser()
+
+            # MEMORY FIX: Restart browser periodically to prevent Chromium memory buildup
+            if self._domains_processed_since_browser_start >= self._browser_restart_interval:
+                await self._restart_browser()
 
             # STAGE 1: Try HTTP fetch first (fast, reliable)
             logger.debug(f"Stage 1 (HTTP) for {domain}")
@@ -254,6 +269,8 @@ class ClassifierService:
 
         finally:
             result['finished_at'] = datetime.utcnow()
+            # MEMORY FIX: Increment domain counter for browser restart tracking
+            self._domains_processed_since_browser_start += 1
 
         return result
 

@@ -2,6 +2,9 @@
 workers: 1  # Sequential processing for reliability
 max_retries: 1
 
+# MEMORY FIX: Browser restart interval (prevents Chromium memory buildup)
+browser_restart_interval: 200  # Restart browser every N domains
+
 # Crawler Settings
 crawler:
   timeout_ms: 15000  # Increased for slow sites

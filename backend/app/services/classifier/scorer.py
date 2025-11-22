@@ -196,6 +196,7 @@ class Scorer:
 
         async with aiohttp.ClientSession() as session:
             for url in image_urls:
+                img = None
                 try:
                     async with session.get(url, timeout=aiohttp.ClientTimeout(total=10)) as response:
                         if response.status == 200:
@@ -221,6 +222,13 @@ class Scorer:
 
                 except Exception as e:
                     logger.debug(f"Failed to download/resize image {url}: {e}")
+                finally:
+                    # MEMORY FIX: Explicitly close PIL Image to prevent leak
+                    if img is not None:
+                        try:
+                            img.close()
+                        except:
+                            pass
 
         return processed
 
@@ -344,6 +352,7 @@ Examples:
         Returns:
             Bodywear probability (0-1), or None if analysis fails
         """
+        img = None
         try:
             # Resize screenshot to save costs
             img = Image.open(BytesIO(screenshot_bytes))
@@ -356,6 +365,10 @@ Examples:
             buffer = BytesIO()
             img.save(buffer, format='JPEG', quality=70)
             img_base64 = base64.b64encode(buffer.getvalue()).decode('utf-8')
+
+            # MEMORY FIX: Close PIL Image immediately after conversion
+            img.close()
+            img = None
 
             # Analyze with Vision API using more specific prompt for homepages
             response = await self.openai_client.chat.completions.create(
@@ -477,3 +490,10 @@ Examples:
                 ApiTracker.track_openai_vision(success=False, error_message=error_str[:500], image_count=1)
 
             return None
+        finally:
+            # MEMORY FIX: Ensure PIL Image is always closed, even on exception
+            if img is not None:
+                try:
+                    img.close()
+                except:
+                    pass
