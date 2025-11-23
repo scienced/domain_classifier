@@ -162,8 +162,22 @@ class Worker:
             # Get classifier
             classifier = await get_classifier()
 
-            # Classify domain
-            result = await classifier.classify_domain(record.domain)
+            # CRITICAL FIX: Wrap entire classification with timeout (max 120 seconds)
+            # This prevents worker from hanging forever on a single domain
+            try:
+                result = await asyncio.wait_for(
+                    classifier.classify_domain(record.domain),
+                    timeout=120.0  # 2 minute maximum per domain
+                )
+            except asyncio.TimeoutError:
+                logger.error(f"Classification timeout for {record.domain} after 120 seconds")
+                result = {
+                    'domain': record.domain,
+                    'label': 'Error',
+                    'confidence': 0.0,
+                    'error': 'Classification timeout after 120 seconds',
+                    'finished_at': datetime.utcnow()
+                }
 
             # Update record with results
             record.label = self._map_label(result.get('label'))
